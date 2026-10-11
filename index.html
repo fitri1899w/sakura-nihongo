@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sakura Nihongo — Tahap 9: Tata Bahasa & Kosakata Lengkap</title>
+<style>
+:root{color-scheme:light dark;--pink:#f5bfd1;--rose:#a83f68;--pale:#fff0f5;--ink:light-dark(#402b35,#fff0f5);--muted:light-dark(#826875,#d9bdc8);--surface:light-dark(#fffafd,#291e25);--card:light-dark(#fff,#352630);--line:light-dark(#f0dce5,#55404a);--accent:light-dark(#b84470,#f3a8c5)}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--surface);color:var(--ink)}button{font:inherit;cursor:pointer}button:focus-visible{outline:3px solid #d66c98;outline-offset:3px}.app{min-height:100vh;background:var(--surface)}header{padding:22px max(18px,calc((100% - 1080px)/2));background:linear-gradient(120deg,#fff0f5,#ffe2ec 60%,#fcecf5);color:#63354a;border-bottom:1px solid #f0d2df}.top{display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{display:flex;align-items:center;gap:10px;font-weight:850;font-size:1.15rem}.logo{width:42px;height:42px;display:grid;place-items:center;background:#fff;border-radius:15px;box-shadow:0 5px 15px #b34a7020;font-size:1.5rem}.tag{font-size:.78rem;color:#98536f;background:#fff9;border:1px solid #f4cadb;padding:6px 10px;border-radius:99px}.hero{max-width:1080px;margin:22px auto 0;display:grid;grid-template-columns:1.4fr .6fr;gap:20px;align-items:center}.hero h1{font-size:clamp(1.8rem,4vw,3rem);line-height:1.08;margin:8px 0 12px;letter-spacing:-.04em}.hero p{max-width:580px;color:#80576a;line-height:1.65;margin:0}.sakura-art{font-size:5rem;text-align:center;filter:drop-shadow(0 7px 8px #c15d8022)}main{max-width:1080px;margin:auto;padding:24px 18px 50px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:10px;margin:10px 0 16px}.section-head h2{margin:0;font-size:1.25rem}.muted{color:var(--muted);font-size:.9rem}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.tile{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;text-align:left;color:var(--ink);transition:transform .15s,border-color .15s;min-height:148px}.tile:hover{transform:translateY(-2px);border-color:#e4a3bd}.tile .emoji{font-size:1.8rem}.tile h3{margin:10px 0 5px;font-size:1.02rem}.tile p{margin:0;color:var(--muted);font-size:.88rem;line-height:1.5}.panel{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px}.panel h2{margin:0 0 6px}.panel p{line-height:1.6}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.primary,.secondary,.option{border-radius:13px;padding:11px 15px;border:1px solid var(--line);background:var(--card);color:var(--ink)}.primary{background:var(--accent);border-color:var(--accent);color:white;font-weight:750}.secondary:hover,.option:hover{border-color:var(--accent)}.kana-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-top:14px}.kana{background:var(--pale);color:#6b344d;border:1px solid #f2cfdd;border-radius:14px;padding:10px 5px;text-align:center}.kana b{display:block;font-size:1.65rem}.kana small{font-size:.78rem}.quiz-q{font-size:1.15rem;font-weight:750;margin:18px 0}.options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.option{text-align:left}.option.correct{border-color:#32966d;background:light-dark(#e8f8ef,#173b2c)}.option.wrong{border-color:#d15b6f;background:light-dark(#fff0f1,#48252c)}.feedback{margin-top:12px;font-weight:650}.conversation{padding:12px 14px;border-radius:15px;margin:10px 0;max-width:90%;line-height:1.5}.jp{background:var(--pale);color:#6b344d}.id{background:light-dark(#f5f0f3,#40323a);margin-left:auto}.vocab{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}.vocab:last-child{border-bottom:0}.vocab strong{font-size:1.12rem}.tiny{font-size:.82rem;color:var(--muted)}.progress{height:8px;border-radius:20px;background:var(--line);overflow:hidden;margin:10px 0}.progress span{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}.notice{font-size:.82rem;color:var(--muted);line-height:1.55;margin-top:18px}footer{text-align:center;color:var(--muted);font-size:.82rem;padding:20px;border-top:1px solid var(--line)}[hidden]{display:none!important}
+@media(max-width:680px){.hero{grid-template-columns:1fr}.sakura-art{display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tile{padding:14px}.kana-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.hero h1{font-size:2.1rem}.tag{display:none}}
+@media(max-width:390px){.grid{grid-template-columns:1fr}.options{grid-template-columns:1fr}.kana b{font-size:1.35rem}}
+
+.kanji-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+.kanji-card{border:1px solid var(--line);background:var(--card);border-radius:18px;padding:14px;display:grid;grid-template-columns:92px 1fr;gap:12px;align-items:center;text-align:left;color:var(--ink)}
+.kanji-card:hover{border-color:#e4a3bd}
+.kanji-illustration{height:92px;border-radius:15px;background:linear-gradient(145deg,#fff0f5,#ffe1ec);color:#71364f;display:grid;place-items:center;overflow:hidden}
+.kanji-illustration svg{width:86px;height:82px}
+.kanji-big{font-size:2.25rem;font-weight:850;line-height:1;color:#9f3e68}
+.kanji-card h3{margin:0 0 5px;font-size:1rem}
+.kanji-card p{margin:3px 0;font-size:.84rem;line-height:1.45;color:var(--muted)}
+.kanji-detail{margin-top:16px;border:1px solid #edc3d4;background:var(--pale);color:#64334a;border-radius:18px;padding:16px}
+.kanji-detail h3{margin:0 0 8px}
+.kanji-detail .kanji-big{font-size:3rem}
+.kanji-detail p{margin:6px 0;line-height:1.55}
+.component-pills{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0}
+.component-pills span{background:#fff;border:1px solid #f0cada;border-radius:99px;padding:5px 9px;font-size:.83rem}
+@media(max-width:520px){.kanji-grid{grid-template-columns:1fr}.kanji-card{grid-template-columns:80px 1fr}.kanji-illustration{height:80px}}
+
+
+.kana-grid-full{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:10px 0 16px}
+.kana-cell{border:1px solid #f0c7d7;border-radius:13px;background:#fffafd;color:#71364f;padding:9px 3px;text-align:center;min-width:0}
+.kana-cell:hover,.kana-cell:focus{border-color:#b94e7b;background:#fff0f5}
+.kana-char{font-size:1.7rem;font-weight:800;line-height:1.2;color:#a83f68}
+.kana-romaji{font-size:.82rem;font-weight:700;margin-top:4px}
+.kana-cell small{display:block;font-size:.68rem;color:#956b7e;overflow-wrap:anywhere}
+.kana-guide{background:#fff0f5;border:1px solid #f1c5d7;color:#71364f;padding:12px;border-radius:14px;line-height:1.5}
+.kana-focus{display:flex;align-items:center;gap:16px;border:1px solid #edc3d4;border-radius:17px;background:#fff7fa;padding:15px;margin:14px 0}
+.kana-focus-char{font-size:3.7rem;min-width:80px;text-align:center;color:#a83f68;font-weight:850}
+.kana-focus h3{margin:0 0 5px}.kana-focus p{margin:4px 0 10px;line-height:1.5}
+.kanapractice{margin-top:16px;border:1px solid var(--line);border-radius:17px;padding:15px;background:var(--card)}
+.kanapractice .question{font-weight:750;font-size:1.08rem}
+.kana-choices{display:flex;flex-wrap:wrap;gap:8px}
+@media(max-width:520px){.kana-grid-full{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.kana-char{font-size:1.55rem}.kana-focus{align-items:flex-start}.kana-focus-char{min-width:62px;font-size:3rem}}
+
+</style>
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#f5bfd1">
+<link rel="icon" href="./icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="./icon-192.png">
+</head>
+<body>
+<div class="app">
+<header>
+ <div class="top"><div class="brand"><div class="logo">🌸</div><span>Sakura Nihongo</span></div><span class="tag">GRATIS • TANPA IKLAN</span></div>
+ <section class="hero"><div><span class="tag">はじめよう！ — Ayo mulai!</span><h1>Pelan-pelan belajar,<br>selangkah ke Jepang.</h1><p>Belajar huruf, kosakata, percakapan, dan persiapan kerja pengolahan makanan dalam satu tempat yang manis dan sederhana.</p></div><div class="sakura-art" aria-hidden="true">🌸 🇯🇵 🌸</div></section>
+</header>
+<main>
+ <div class="section-head"><div><h2>Hari ini mau belajar apa?</h2><div class="muted">Pilih satu kelas untuk memulai.</div></div><span class="tag">Gratis · tanpa iklan</span></div>
+ <div class="grid">
+  <button class="tile" data-open="kana"><span class="emoji">あ</span><h3>Hiragana & Katakana</h3><p>Kenali huruf Jepang dasar dan dengarkan bunyinya.</p></button>
+  <button class="tile" data-open="kanaFull"><span class="emoji">あ</span><h3>Hiragana & Katakana</h3><p>Huruf dasar, tanda suara, huruf gabungan, dan kuis.</p></button>
+  <button class="tile" data-open="kanji"><span class="emoji">木</span><h3>Bedah Kanji</h3><p>Pelajari bentuk, arti, komponen, dan mnemonik visual.</p></button>
+  <button class="tile" data-open="quiz"><span class="emoji">🎯</span><h3>Kuis kosakata</h3><p>Latihan arti kata dengan pilihan jawaban.</p></button>
+  <button class="tile" data-open="conversation"><span class="emoji">💬</span><h3>Percakapan sehari-hari</h3><p>Ungkapan sederhana untuk situasi nyata.</p></button>
+  <button class="tile" data-open="situations"><span class="emoji">🗾</span><h3>Percakapan situasi nyata</h3><p>Di toko, rumah sakit, bandara, stasiun, halte, dan kantor imigrasi.</p></button>
+  <button class="tile" data-open="pm"><span class="emoji">🍱</span><h3>Persiapan kerja TG PM</h3><p>Kosakata dasar di lingkungan pengolahan makanan.</p></button>
+  <button class="tile" data-open="studyLibrary"><span class="emoji">📚</span><h3>Tata bahasa & kosakata N5–N4</h3><p>Partikel, perubahan kata kerja, kata sifat, angka, waktu, makanan, profesi, dan lainnya.</p></button>
+  <button class="tile" data-open="n5"><span class="emoji">📘</span><h3>Jalur JLPT N5–N4</h3><p>Mulai dari dasar lalu lanjut secara bertahap.</p></button>
+  <button class="tile" data-open="progress"><span class="emoji">🌷</span><h3>Perkembangan belajar</h3><p>Lihat skor latihan yang sudah kamu kerjakan.</p></button>
+  <button class="tile" data-open="access"><span class="emoji">🔓</span><h3>Akses & privasi</h3><p>Belajar tanpa akun atau rencana akun opsional.</p></button>
+ </div>
+ <section class="panel" id="kana" hidden>
+  <div class="row" style="justify-content:space-between"><div><h2>Hiragana dasar</h2><p class="muted">Tekan kartu untuk mendengar bunyinya jika browser mendukung audio.</p></div><button class="secondary" data-home>← Menu</button></div>
+  <div class="row"><button class="secondary" id="hiraganaTab">Hiragana</button><button class="secondary" id="katakanaTab">Katakana</button></div>
+  <div class="kana-grid" id="kanaGrid"></div>
+ </section>
+
+
+ <section class="panel" id="kanaFull" hidden>
+  <div class="row" style="justify-content:space-between;align-items:flex-start">
+   <div><h2>🌸 Hiragana & Katakana Lengkap</h2><p class="muted">Belajar huruf Jepang dari dasar, satu kelompok demi satu kelompok.</p></div>
+   <button class="secondary" data-home>← Menu</button>
+  </div>
+  <div class="kana-tabs row" style="gap:8px;flex-wrap:wrap">
+   <button class="primary" data-kanatype="hira">あ Hiragana</button>
+   <button class="secondary" data-kanatype="kata">ア Katakana</button>
+  </div>
+  <label for="kanaGroup">Pilih kelompok huruf</label>
+  <select id="kanaGroup" class="secondary" style="width:100%;margin:8px 0 12px">
+   <option value="basic">Huruf dasar (46)</option>
+   <option value="dakuten">Dakuten & handakuten</option>
+   <option value="combo">Huruf gabungan (yōon)</option>
+   <option value="all">Semua huruf dalam satu tabel</option>
+  </select>
+  <div class="kana-guide" id="kanaGuide"></div>
+  <p class="muted" style="font-size:.88rem">🔊 Audio menggunakan text-to-speech perangkat. Jika tidak terdengar, buka file di Chrome dan aktifkan suara Jepang di pengaturan Text-to-speech Android.</p>
+  <div class="kana-grid-full" id="kanaGridFull"></div>
+  <div class="kana-focus" id="kanaFocus" aria-live="polite">
+   <div class="kana-focus-char">あ</div><div><h3>あ — a</h3><p>Vokal “a”, seperti bunyi a pada kata “apa”.</p><button class="primary speak" data-say="あ">🔊 Dengarkan</button></div>
+  </div>
+  <div class="kanapractice">
+   <h3>🎯 Kuis mengenali huruf</h3>
+   <p id="kanaQ" class="question">Huruf mana yang berbunyi “ka”?</p>
+   <div class="row" id="kanaChoices" style="flex-wrap:wrap"></div>
+   <p id="kanaFeedback" aria-live="polite"></p>
+   <div class="row" style="justify-content:space-between;align-items:center">
+    <span class="muted" id="kanaScore">Skor sesi: 0 benar</span>
+    <button class="secondary" id="kanaNext">Soal berikutnya →</button>
+   </div>
+  </div>
+  <div class="notice">
+   <strong>Catatan pelafalan:</strong> romaji hanya alat bantu awal. Bunyi vokal Jepang relatif konsisten. Audio menggunakan suara Jepang yang tersedia di browser/perangkat; jika tidak tersedia, tabel huruf dan romaji tetap dapat dipelajari.
+  </div>
+ </section>
+
+ <section class="panel" id="kanji" hidden>
+  <div class="row" style="justify-content:space-between"><div><h2>🌸 Bedah Kanji — diperluas</h2><p class="muted">Kanji pemula, komponen, ilustrasi pengingat, contoh kata, dan catatan goresan.</p></div><button class="secondary" data-home>← Menu</button></div>
+  <p>Tekan kartu untuk membuka penjelasan. Tiap ilustrasi adalah <strong>jembatan ingatan</strong>, bukan selalu asal-usul sejarah kanji yang sebenarnya.</p>
+  <div class="row">
+   <label for="kanjiLevel" class="tiny">Kelompok:</label>
+   <select id="kanjiLevel" class="secondary" aria-label="Pilih kelompok kanji">
+    <option value="all">Semua kanji pemula</option><option value="nature">Alam & bentuk</option><option value="people">Orang & kegiatan</option><option value="daily">Kehidupan sehari-hari</option>
+   </select>
+  </div>
+  <div class="kanji-grid" id="kanjiGrid"></div>
+  <div class="kanji-detail" id="kanjiDetail" aria-live="polite">
+   <div class="row" style="align-items:flex-start"><div class="kanji-big">休</div><div><h3>休 — やすむ (yasumu)</h3><p><strong>Arti:</strong> istirahat</p><div class="component-pills"><span>亻 orang</span><span>木 pohon</span></div><p>Bayangkan seseorang bersandar di pohon untuk beristirahat. Ini mnemonik untuk membantu mengingat bentuknya.</p><button class="primary speak" data-say="休みます">🔊 Dengarkan: 休みます</button></div></div>
+  </div>
+  <h3>Latihan cepat</h3>
+  <p class="muted">Coba ingat tanpa melihat catatan, lalu tekan jawaban.</p>
+  <div class="kanji-detail" id="kanjiQuiz">
+   <strong id="kanjiQuestion">Kanji 木 berarti apa?</strong>
+   <div class="row" style="margin-top:10px" id="kanjiOptions"></div>
+   <p id="kanjiFeedback" aria-live="polite"></p>
+   <button class="secondary" id="kanjiNext">Soal berikutnya →</button>
+  </div>
+  <p class="notice">Bacaan kanji dapat berubah sesuai kata dan kalimat. Di tahap ini, kita belajar arti dasar dan contoh yang umum dulu; bacaan onyomi/kunyomi serta gabungan kata akan ditambahkan pada pelajaran berikutnya.</p>
+ </section>
+
+ <section class="panel" id="quiz" hidden>
+  <div class="row" style="justify-content:space-between"><div><h2>Kuis kosakata pemula</h2><div class="muted" id="quizCount">Pertanyaan 1</div></div><button class="secondary" data-home>← Menu</button></div>
+  <div class="progress"><span id="quizProgress"></span></div><div class="quiz-q" id="question"></div><div class="options" id="options"></div><div class="feedback" id="feedback" aria-live="polite"></div><div class="row" style="margin-top:15px"><button class="primary" id="next" hidden>Berikutnya →</button><button class="secondary" id="restart">Ulangi kuis</button></div>
+ </section>
+ <section class="panel" id="conversation" hidden>
+  <div class="row" style="justify-content:space-between"><div><h2>Percakapan: Salam pertama</h2><p class="muted">Dengarkan dan baca kalimatnya.</p></div><button class="secondary" data-home>← Menu</button></div>
+  <div class="conversation jp"><strong>はじめまして。</strong><br>Hajimemashite.<br><span class="tiny">Salam kenal.</span><button class="secondary speak" data-say="はじめまして。">🔊 Dengarkan</button></div>
+  <div class="conversation id">Halo, salam kenal.</div>
+  <div class="conversation jp"><strong>わたしはアニです。</strong><br>Watashi wa Ani desu.<br><span class="tiny">Saya Ani.</span><button class="secondary speak" data-say="わたしはアニです。">🔊 Dengarkan</button></div>
+  <div class="conversation id">Senang berkenalan denganmu.</div>
+  <div class="conversation jp"><strong>よろしくおねがいします。</strong><br>Yoroshiku onegaishimasu.<br><span class="tiny">Mohon bantuannya / senang berkenalan dengan Anda.</span><button class="secondary speak" data-say="よろしくおねがいします。">🔊 Dengarkan</button></div>
+  <h3>Situasi: meminta bantuan</h3>
+  <div class="conversation jp"><strong>すみません。</strong><br>Sumimasen. — Permisi / maaf.<button class="secondary speak" data-say="すみません。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>もう一度言ってください。</strong><br>Mou ichido itte kudasai. — Tolong katakan sekali lagi.<button class="secondary speak" data-say="もう一度言ってください。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>ゆっくり話してください。</strong><br>Yukkuri hanashite kudasai. — Tolong bicara pelan-pelan.<button class="secondary speak" data-say="ゆっくり話してください。">🔊 Dengarkan</button></div>
+  <h3>Situasi: di tempat kerja</h3>
+  <div class="conversation jp"><strong>おはようございます。</strong><br>Ohayou gozaimasu. — Selamat pagi.<button class="secondary speak" data-say="おはようございます。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>わかりました。</strong><br>Wakarimashita. — Saya mengerti.<button class="secondary speak" data-say="わかりました。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>ありがとうございます。</strong><br>Arigatou gozaimasu. — Terima kasih.<button class="secondary speak" data-say="ありがとうございます。">🔊 Dengarkan</button></div>
+  <p class="notice">Catatan: contoh ini untuk latihan pemula. Audio memakai suara Jepang yang tersedia di perangkat/browser; ketersediaan dan kualitasnya bisa berbeda.</p>
+ </section>
+ <section class="panel" id="situations" hidden>
+  <div class="row" style="justify-content:space-between"><div><h2>🗾 Percakapan di situasi nyata</h2><p class="muted">Kalimat praktis untuk kehidupan sehari-hari di Jepang. Tekan 🔊 untuk mendengar pelafalan.</p></div><button class="secondary" data-home>← Menu</button></div>
+  <div class="kanji-guide"><strong>Tips belajar:</strong> dengarkan satu kalimat, baca romaji, lalu ulangi dengan suara sendiri. Bahasa sopan di bawah ini cocok untuk pemula.</div>
+
+  <h3>🛍️ 1. Di toko / minimarket</h3>
+  <div class="conversation jp"><strong>いらっしゃいませ。</strong><br><span class="tiny">Irasshaimase · Selamat datang. (Ucapan pegawai toko)</span><br><button class="secondary speak" data-say="いらっしゃいませ。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>これをください。</strong><br><span class="tiny">Kore o kudasai · Tolong, saya mau yang ini.</span><br><button class="secondary speak" data-say="これをください。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>いくらですか。</strong><br><span class="tiny">Ikura desu ka · Berapa harganya?</span><br><button class="secondary speak" data-say="いくらですか。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>袋をお願いします。</strong><br><span class="tiny">Fukuro o onegaishimasu · Tolong beri saya kantong.</span><br><button class="secondary speak" data-say="袋をお願いします。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>カードで払えますか。</strong><br><span class="tiny">Kaado de haraemasu ka · Bisa bayar dengan kartu?</span><br><button class="secondary speak" data-say="カードで払えますか。">🔊 Dengarkan</button></div>
+
+  <h3>🏥 2. Di rumah sakit / klinik</h3>
+  <div class="conversation jp"><strong>初めてです。</strong><br><span class="tiny">Hajimete desu · Ini pertama kali saya datang.</span><br><button class="secondary speak" data-say="初めてです。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>お腹が痛いです。</strong><br><span class="tiny">Onaka ga itai desu · Perut saya sakit.</span><br><button class="secondary speak" data-say="お腹が痛いです。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>熱があります。</strong><br><span class="tiny">Netsu ga arimasu · Saya demam.</span><br><button class="secondary speak" data-say="熱があります。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>保険証はこちらです。</strong><br><span class="tiny">Hokenshou wa kochira desu · Ini kartu asuransi saya.</span><br><button class="secondary speak" data-say="保険証はこちらです。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>ゆっくり話してください。</strong><br><span class="tiny">Yukkuri hanashite kudasai · Tolong bicara pelan-pelan.</span><br><button class="secondary speak" data-say="ゆっくり話してください。">🔊 Dengarkan</button></div>
+  <p class="notice">Catatan: ini latihan bahasa, bukan pengganti penilaian medis. Saat darurat, minta bantuan segera.</p>
+
+  <h3>✈️ 3. Di bandara</h3>
+  <div class="conversation jp"><strong>チェックインカウンターはどこですか。</strong><br><span class="tiny">Chekku-in kauntaa wa doko desu ka · Di mana loket check-in?</span><br><button class="secondary speak" data-say="チェックインカウンターはどこですか。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>搭乗口は何番ですか。</strong><br><span class="tiny">Toujouguchi wa nanban desu ka · Gate keberangkatan nomor berapa?</span><br><button class="secondary speak" data-say="搭乗口は何番ですか。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>この荷物を預けたいです。</strong><br><span class="tiny">Kono nimotsu o azuketai desu · Saya ingin menitipkan bagasi ini.</span><br><button class="secondary speak" data-say="この荷物を預けたいです。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>乗り継ぎはこちらですか。</strong><br><span class="tiny">Noritsugi wa kochira desu ka · Apakah arah transit di sini?</span><br><button class="secondary speak" data-say="乗り継ぎはこちらですか。">🔊 Dengarkan</button></div>
+
+  <h3>🚉 4. Di stasiun</h3>
+  <div class="conversation jp"><strong>駅はどこですか。</strong><br><span class="tiny">Eki wa doko desu ka · Di mana stasiun?</span><br><button class="secondary speak" data-say="駅はどこですか。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>この電車は東京に行きますか。</strong><br><span class="tiny">Kono densha wa Toukyou ni ikimasu ka · Apakah kereta ini menuju Tokyo?</span><br><button class="secondary speak" data-say="この電車は東京に行きますか。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>切符を一枚ください。</strong><br><span class="tiny">Kippu o ichimai kudasai · Tolong satu tiket.</span><br><button class="secondary speak" data-say="切符を一枚ください。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>何番線ですか。</strong><br><span class="tiny">Nanbansen desu ka · Jalur/peron nomor berapa?</span><br><button class="secondary speak" data-say="何番線ですか。">🔊 Dengarkan</button></div>
+
+  <h3>🚌 5. Di halte / bus</h3>
+  <div class="conversation jp"><strong>バス停はどこですか。</strong><br><span class="tiny">Basutei wa doko desu ka · Di mana halte bus?</span><br><button class="secondary speak" data-say="バス停はどこですか。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>このバスは市役所に行きますか。</strong><br><span class="tiny">Kono basu wa shiyakusho ni ikimasu ka · Apakah bus ini menuju balai kota?</span><br><button class="secondary speak" data-say="このバスは市役所に行きますか。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>次で降ります。</strong><br><span class="tiny">Tsugi de orimasu · Saya turun di pemberhentian berikutnya.</span><br><button class="secondary speak" data-say="次で降ります。">🔊 Dengarkan</button></div>
+
+  <h3>🪪 6. Membuat / mengurus kartu izin tinggal</h3>
+  <p class="muted">在留カード（ざいりゅうカード・zairyuu kaado） = kartu izin tinggal / residence card. Prosedur bisa berbeda sesuai status dan kantor yang menangani.</p>
+  <div class="conversation jp"><strong>在留カードの手続きについて聞きたいです。</strong><br><span class="tiny">Zairyuu kaado no tetsuzuki ni tsuite kikitai desu · Saya ingin bertanya tentang prosedur kartu izin tinggal.</span><br><button class="secondary speak" data-say="在留カードの手続きについて聞きたいです。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>どの書類が必要ですか。</strong><br><span class="tiny">Dono shorui ga hitsuyou desu ka · Dokumen apa saja yang diperlukan?</span><br><button class="secondary speak" data-say="どの書類が必要ですか。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>申請書はどこでもらえますか。</strong><br><span class="tiny">Shinseisho wa doko de moraemasu ka · Di mana saya bisa mendapatkan formulir permohonan?</span><br><button class="secondary speak" data-say="申請書はどこでもらえますか。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>住所が変わりました。</strong><br><span class="tiny">Juusho ga kawarimashita · Alamat saya berubah.</span><br><button class="secondary speak" data-say="住所が変わりました。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>ここに書けばいいですか。</strong><br><span class="tiny">Koko ni kakeba ii desu ka · Apakah saya harus menulis di sini?</span><br><button class="secondary speak" data-say="ここに書けばいいですか。">🔊 Dengarkan</button></div>
+
+  <h3>🏢 7. Di balai kota / kantor administrasi</h3>
+  <div class="conversation jp"><strong>転入届を出したいです。</strong><br><span class="tiny">Tennyuutodoke o dashitai desu · Saya ingin melaporkan pindah masuk alamat.</span><br><button class="secondary speak" data-say="転入届を出したいです。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>住民票を取りたいです。</strong><br><span class="tiny">Juuminhyou o toritai desu · Saya ingin meminta surat keterangan domisili penduduk.</span><br><button class="secondary speak" data-say="住民票を取りたいです。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>マイナンバーカードについて教えてください。</strong><br><span class="tiny">Mainanbaa kaado ni tsuite oshiete kudasai · Tolong jelaskan tentang kartu My Number.</span><br><button class="secondary speak" data-say="マイナンバーカードについて教えてください。">🔊 Dengarkan</button></div>
+
+  <h3>🙋 8. Saat tidak mengerti / meminta bantuan</h3>
+  <div class="conversation jp"><strong>日本語がまだ上手ではありません。</strong><br><span class="tiny">Nihongo ga mada jouzu dewa arimasen · Bahasa Jepang saya belum lancar.</span><br><button class="secondary speak" data-say="日本語がまだ上手ではありません。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>もう一度お願いします。</strong><br><span class="tiny">Mou ichido onegaishimasu · Tolong ulangi sekali lagi.</span><br><button class="secondary speak" data-say="もう一度お願いします。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>紙に書いていただけますか。</strong><br><span class="tiny">Kami ni kaite itadakemasu ka · Bisakah Anda menuliskannya di kertas?</span><br><button class="secondary speak" data-say="紙に書いていただけますか。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>助けてください。</strong><br><span class="tiny">Tasukete kudasai · Tolong bantu saya.</span><br><button class="secondary speak" data-say="助けてください。">🔊 Dengarkan</button></div>
+  <p class="notice">Materi ini adalah latihan bahasa umum. Untuk urusan imigrasi, izin tinggal, dan administrasi, konfirmasikan dokumen serta prosedur terbaru kepada kantor resmi yang berwenang.</p>
+ </section>
+
+ <section class="panel" id="pm" hidden>
+  <div class="row" style="justify-content:space-between"><div><h2>Kosakata kerja pengolahan makanan</h2><p class="muted">Materi pengantar; bukan pengganti modul ujian resmi.</p></div><button class="secondary" data-home>← Menu</button></div>
+  <div class="vocab"><div><strong>食品（しょくひん）</strong><div class="tiny">shokuhin · bahan/produk pangan</div></div><button class="secondary speak" data-say="食品">🔊</button></div>
+  <div class="vocab"><div><strong>手洗い（てあらい）</strong><div class="tiny">tearai · cuci tangan</div></div><button class="secondary speak" data-say="手洗い">🔊</button></div>
+  <div class="vocab"><div><strong>衛生（えいせい）</strong><div class="tiny">eisei · higiene/kebersihan</div></div><button class="secondary speak" data-say="衛生">🔊</button></div>
+  <div class="vocab"><div><strong>温度（おんど）</strong><div class="tiny">ondo · suhu</div></div><button class="secondary speak" data-say="温度">🔊</button></div>
+  <div class="vocab"><div><strong>確認（かくにん）</strong><div class="tiny">kakunin · pemeriksaan/konfirmasi</div></div><button class="secondary speak" data-say="確認">🔊</button></div>
+  <div class="vocab"><div><strong>作業（さぎょう）</strong><div class="tiny">sagyou · pekerjaan/proses kerja</div></div><button class="secondary speak" data-say="作業">🔊</button></div>
+  <div class="vocab"><div><strong>安全（あんぜん）</strong><div class="tiny">anzen · keselamatan/aman</div></div><button class="secondary speak" data-say="安全">🔊</button></div>
+  <div class="vocab"><div><strong>危険（きけん）</strong><div class="tiny">kiken · bahaya</div></div><button class="secondary speak" data-say="危険">🔊</button></div>
+  <div class="vocab"><div><strong>冷蔵（れいぞう）</strong><div class="tiny">reizou · pendinginan di lemari es</div></div><button class="secondary speak" data-say="冷蔵">🔊</button></div>
+  <div class="vocab"><div><strong>冷凍（れいとう）</strong><div class="tiny">reitou · pembekuan</div></div><button class="secondary speak" data-say="冷凍">🔊</button></div>
+  <div class="vocab"><div><strong>加熱（かねつ）</strong><div class="tiny">kanetsu · pemanasan</div></div><button class="secondary speak" data-say="加熱">🔊</button></div>
+  <div class="vocab"><div><strong>清掃（せいそう）</strong><div class="tiny">seisou · pembersihan</div></div><button class="secondary speak" data-say="清掃">🔊</button></div>
+  <div class="vocab"><div><strong>消毒（しょうどく）</strong><div class="tiny">shoudoku · disinfeksi</div></div><button class="secondary speak" data-say="消毒">🔊</button></div>
+  <div class="vocab"><div><strong>手袋（てぶくろ）</strong><div class="tiny">tebukuro · sarung tangan</div></div><button class="secondary speak" data-say="手袋">🔊</button></div>
+  <div class="vocab"><div><strong>マスク</strong><div class="tiny">masuku · masker</div></div><button class="secondary speak" data-say="マスク">🔊</button></div>
+  <div class="vocab"><div><strong>アレルギー</strong><div class="tiny">arerugii · alergi</div></div><button class="secondary speak" data-say="アレルギー">🔊</button></div>
+  <div class="vocab"><div><strong>原材料（げんざいりょう）</strong><div class="tiny">genzairyou · bahan baku</div></div><button class="secondary speak" data-say="原材料">🔊</button></div>
+  <div class="vocab"><div><strong>賞味期限（しょうみきげん）</strong><div class="tiny">shoumi kigen · batas baik dikonsumsi</div></div><button class="secondary speak" data-say="賞味期限">🔊</button></div>
+  <div class="vocab"><div><strong>報告（ほうこく）</strong><div class="tiny">houkoku · laporan</div></div><button class="secondary speak" data-say="報告">🔊</button></div>
+  <div class="vocab"><div><strong>異常（いじょう）</strong><div class="tiny">ijou · ketidaknormalan/masalah</div></div><button class="secondary speak" data-say="異常">🔊</button></div>
+  <h3>Kalimat praktis di tempat kerja</h3>
+  <div class="conversation jp"><strong>手を洗いました。</strong><br>Te o araimashita. — Saya sudah mencuci tangan.<button class="secondary speak" data-say="手を洗いました。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>確認してください。</strong><br>Kakunin shite kudasai. — Tolong periksa.<button class="secondary speak" data-say="確認してください。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>もう一度お願いします。</strong><br>Mou ichido onegaishimasu. — Tolong sekali lagi.<button class="secondary speak" data-say="もう一度お願いします。">🔊 Dengarkan</button></div>
+  <div class="conversation jp"><strong>わかりません。</strong><br>Wakarimasen. — Saya tidak mengerti.<button class="secondary speak" data-say="わかりません。">🔊 Dengarkan</button></div>
+  <p class="notice">Ini kosakata pengantar untuk industri pengolahan makanan umum, bukan khusus makanan laut. Jalur lanjutan dapat mencakup kebersihan pangan, pencegahan kontaminasi, kontrol suhu, dan keselamatan kerja. Materi resmi terbaru perlu diperiksa sebelum dipakai sebagai persiapan ujian.</p>
+ </section>
+ <section class="panel" id="n5" hidden>
+  <div class="row" style="justify-content:space-between"><div><h2>Peta belajar N5 → N4</h2><p class="muted">Urutan sederhana untuk belajar sedikit demi sedikit.</p></div><button class="secondary" data-home>← Menu</button></div>
+  <h3>Pelajaran 1 · Pola kalimat dasar</h3>
+  <div class="vocab"><div><strong>わたしはフィトリです。</strong><div class="tiny">Watashi wa Fitri desu. — Saya Fitri.</div><div class="tiny">Pola: A は B です = A adalah B.</div></div><button class="secondary speak" data-say="わたしはフィトリです。">🔊</button></div>
+  <div class="vocab"><div><strong>これは本です。</strong><div class="tiny">Kore wa hon desu. — Ini buku.</div><div class="tiny">これ = ini; 本（ほん）= buku.</div></div><button class="secondary speak" data-say="これは本です。">🔊</button></div>
+  <div class="vocab"><div><strong>学生ではありません。</strong><div class="tiny">Gakusei dewa arimasen. — Bukan pelajar/mahasiswa.</div><div class="tiny">Pola negatif sopan dari です.</div></div><button class="secondary speak" data-say="学生ではありません。">🔊</button></div>
+  <h3>Pelajaran 2 · Partikel penting</h3>
+  <div class="vocab"><div><strong>は (wa)</strong><div class="tiny">Penanda topik: わたしはインドネシア人です。— Saya orang Indonesia.</div></div><button class="secondary speak" data-say="わたしはインドネシア人です。">🔊</button></div>
+  <div class="vocab"><div><strong>を (o)</strong><div class="tiny">Penanda objek: ごはんを食べます。— Saya makan nasi.</div></div><button class="secondary speak" data-say="ごはんを食べます。">🔊</button></div>
+  <div class="vocab"><div><strong>に (ni)</strong><div class="tiny">Tujuan/waktu: 7時に起きます。— Saya bangun pukul tujuh.</div></div><button class="secondary speak" data-say="七時に起きます。">🔊</button></div>
+  <div class="vocab"><div><strong>で (de)</strong><div class="tiny">Tempat aktivitas: 会社で働きます。— Saya bekerja di perusahaan.</div></div><button class="secondary speak" data-say="会社で働きます。">🔊</button></div>
+  <h3>Pelajaran 3 · Kata kerja sehari-hari</h3>
+  <div class="vocab"><div><strong>食べます（たべます）</strong><div class="tiny">tabemasu · makan</div></div><button class="secondary speak" data-say="食べます">🔊</button></div>
+  <div class="vocab"><div><strong>飲みます（のみます）</strong><div class="tiny">nomimasu · minum</div></div><button class="secondary speak" data-say="飲みます">🔊</button></div>
+  <div class="vocab"><div><strong>働きます（はたらきます）</strong><div class="tiny">hatarakimasu · bekerja</div></div><button class="secondary speak" data-say="働きます">🔊</button></div>
+  <div class="vocab"><div><strong>休みます（やすみます）</strong><div class="tiny">yasumimasu · beristirahat/libur</div></div><button class="secondary speak" data-say="休みます">🔊</button></div>
+  <h3>Urutan belajar yang disarankan</h3>
+  <div class="vocab"><div><strong>1. Huruf & pelafalan</strong><div class="tiny">Hiragana, katakana, bunyi panjang, dan konsonan rangkap.</div></div><span>あ</span></div>
+  <div class="vocab"><div><strong>2. Fondasi N5</strong><div class="tiny">Salam, angka, waktu, partikel, kata kerja, kata sifat, dan kalimat tanya.</div></div><span>5</span></div>
+  <div class="vocab"><div><strong>3. Fondasi N4</strong><div class="tiny">Bentuk て, bentuk lampau, alasan, rencana, pengalaman, dan bacaan pendek.</div></div><span>4</span></div>
+  <div class="vocab"><div><strong>4. Praktik TG PM</strong><div class="tiny">Instruksi kerja, higiene, suhu, label, keselamatan, dan komunikasi dengan atasan.</div></div><span>✓</span></div>
+  <p class="notice">Materi ini adalah pengantar belajar mandiri, bukan silabus lengkap atau pengganti materi ujian resmi. Kita akan menambah latihan per bab secara bertahap.</p>
+ </section>
+ <section class="panel" id="progress" hidden>
+  <div class="row" style="justify-content:space-between"><div><h2>Perkembangan belajar</h2><p class="muted">Skor disimpan sementara di halaman ini.</p></div><button class="secondary" data-home>← Menu</button></div>
+  <div style="font-size:2.3rem;font-weight:850" id="scoreDisplay">0 poin</div><p class="muted" id="progressText">Coba kuis kosakata untuk mendapatkan skor pertamamu.</p><button class="primary" data-open="quiz">Mulai kuis</button>
+ </section>
+
+ <section class="panel" id="studyLibrary" hidden>
+  <div class="row" style="justify-content:space-between"><div><h2>📚 Perpustakaan N5–N4</h2><p class="muted">Ringkasan bertahap, contoh kalimat, romaji, arti Indonesia, dan audio bila didukung browser.</p></div><button class="secondary" data-home>← Menu</button></div>
+  <div class="vocab"><div><strong>Tips belajar</strong><div class="tiny">Pelajari pola sedikit demi sedikit. Daftar ini adalah bahan belajar praktis, bukan daftar resmi lengkap seluruh kosakata JLPT.</div></div><span>🌸</span></div>
+  <div class="row" style="gap:10px;flex-wrap:wrap;margin:16px 0"><label for="studyCategory">Pilih materi</label><select id="studyCategory" style="flex:1;min-width:190px;padding:12px;border:1px solid #ead0dc;border-radius:12px;background:#fff7fa;color:#503341"><option value="particles">Partikel N5–N4</option><option value="verbs">Kata kerja & perubahan bentuk</option><option value="adjectives">Kata sifat i dan na</option><option value="connectors">Kata sambung</option><option value="questions">Kata tanya</option><option value="demonstratives">Kata tunjuk</option><option value="numbers">Angka 1–1.000.000.000</option><option value="time">Waktu, hari, tanggal, bulan, tahun, musim</option><option value="food">Makanan, buah, sayur, bumbu, minuman</option><option value="japaneseFood">Makanan khas Jepang</option><option value="jobs">Profesi dan pekerjaan</option></select></div>
+  <div id="studyIntro" class="notice"></div>
+  <div id="numberTool" class="vocab" hidden style="display:block"><strong>🔢 Latihan membaca angka</strong><p class="tiny">Masukkan angka 1 sampai 1.000.000.000 untuk melihat cara membacanya dalam bahasa Jepang.</p><div class="row" style="gap:8px;flex-wrap:wrap"><input id="numberInput" type="number" min="1" max="1000000000" value="12345" style="padding:12px;border:1px solid #ead0dc;border-radius:10px;flex:1;min-width:140px"><button class="primary" id="numberConvert">Ubah ke bahasa Jepang</button></div><div id="numberResult" style="margin-top:10px"></div></div>
+  <div id="studyCards" class="vocab-grid"></div>
+ </section>
+ <section class="panel" id="access" hidden>
+  <div class="row" style="justify-content:space-between"><div><h2>Akses untuk semua 🌸</h2><p class="muted">Sesuai pilihan: gratis, tanpa iklan, akun opsional.</p></div><button class="secondary" data-home>← Menu</button></div>
+  <div class="vocab"><div><strong>Belajar tanpa akun</strong><div class="tiny">Bisa langsung belajar. Skor demo tersimpan di browser/perangkat ini.</div></div><span>✓</span></div>
+  <div class="vocab"><div><strong>Akun opsional — tahap berikutnya</strong><div class="tiny">Akun dan sinkronisasi HP–laptop belum aktif. Fitur ini memerlukan layanan backend yang aman.</div></div><span>🔒</span></div>
+  <div class="vocab"><div><strong>Tanpa iklan</strong><div class="tiny">Prototipe ini tidak menampilkan iklan atau meminta pembayaran.</div></div><span>🌷</span></div>
+  <p class="notice">Privasi: jangan masukkan kata sandi atau data pribadi ke prototipe ini. Akun sungguhan baru boleh dibuat setelah sistem keamanan, penyimpanan, dan pemulihan akun siap.</p>
+ </section>
+
+ <p class="notice">Prototipe Sakura Nihongo dengan modul Hiragana, Katakana, Bedah Kanji, percakapan situasi nyata, serta perpustakaan tata bahasa dan kosakata N5–N4. Belum memiliki akun, sinkronisasi antarperangkat, atau penyimpanan daring. Jangan masukkan data pribadi ke versi demo.</p>
+</main>
+<footer>🌸 Sakura Nihongo · Belajar sedikit demi sedikit setiap hari.</footer>
+</div>
+<script>
+const kanaH=[["あ","a"],["い","i"],["う","u"],["え","e"],["お","o"],["か","ka"],["き","ki"],["く","ku"],["け","ke"],["こ","ko"],["さ","sa"],["し","shi"],["す","su"],["せ","se"],["そ","so"],["た","ta"],["ち","chi"],["つ","tsu"],["て","te"],["と","to"],["な","na"],["に","ni"],["ぬ","nu"],["ね","ne"],["の","no"],["は","ha"],["ひ","hi"],["ふ","fu"],["へ","he"],["ほ","ho"],["ま","ma"],["み","mi"],["む","mu"],["め","me"],["も","mo"],["や","ya"],["ゆ","yu"],["よ","yo"],["ら","ra"],["り","ri"],["る","ru"],["れ","re"],["ろ","ro"],["わ","wa"],["を","wo"],["ん","n"]];
+const kanaK=[["ア","a"],["イ","i"],["ウ","u"],["エ","e"],["オ","o"],["カ","ka"],["キ","ki"],["ク","ku"],["ケ","ke"],["コ","ko"],["サ","sa"],["シ","shi"],["ス","su"],["セ","se"],["ソ","so"],["タ","ta"],["チ","chi"],["ツ","tsu"],["テ","te"],["ト","to"],["ナ","na"],["ニ","ni"],["ヌ","nu"],["ネ","ne"],["ノ","no"],["ハ","ha"],["ヒ","hi"],["フ","fu"],["ヘ","he"],["ホ","ho"],["マ","ma"],["ミ","mi"],["ム","mu"],["メ","me"],["モ","mo"],["ヤ","ya"],["ユ","yu"],["ヨ","yo"],["ラ","ra"],["リ","ri"],["ル","ru"],["レ","re"],["ロ","ro"],["ワ","wa"],["ヲ","wo"],["ン","n"]];
+let currentKana=kanaH, score=0, asked=0, idx=0, answered=false;
+
+
+const kanaData = {
+ hira: {
+  basic: [
+   ["あ","a"],["い","i"],["う","u"],["え","e"],["お","o"],
+   ["か","ka"],["き","ki"],["く","ku"],["け","ke"],["こ","ko"],
+   ["さ","sa"],["し","shi"],["す","su"],["せ","se"],["そ","so"],
+   ["た","ta"],["ち","chi"],["つ","tsu"],["て","te"],["と","to"],
+   ["な","na"],["に","ni"],["ぬ","nu"],["ね","ne"],["の","no"],
+   ["は","ha"],["ひ","hi"],["ふ","fu"],["へ","he"],["ほ","ho"],
+   ["ま","ma"],["み","mi"],["む","mu"],["め","me"],["も","mo"],
+   ["や","ya"],["ゆ","yu"],["よ","yo"],
+   ["ら","ra"],["り","ri"],["る","ru"],["れ","re"],["ろ","ro"],
+   ["わ","wa"],["を","wo (sering terdengar o)"],["ん","n"]
+  ],
+  dakuten: [
+   ["が","ga"],["ぎ","gi"],["ぐ","gu"],["げ","ge"],["ご","go"],
+   ["ざ","za"],["じ","ji"],["ず","zu"],["ぜ","ze"],["ぞ","zo"],
+   ["だ","da"],["ぢ","ji (jarang)"],["づ","zu (jarang)"],["で","de"],["ど","do"],
+   ["ば","ba"],["び","bi"],["ぶ","bu"],["べ","be"],["ぼ","bo"],
+   ["ぱ","pa"],["ぴ","pi"],["ぷ","pu"],["ぺ","pe"],["ぽ","po"]
+  ],
+  combo: [
+   ["きゃ","kya"],["きゅ","kyu"],["きょ","kyo"],["しゃ","sha"],["しゅ","shu"],["しょ","sho"],
+   ["ちゃ","cha"],["ちゅ","chu"],["ちょ","cho"],["にゃ","nya"],["にゅ","nyu"],["にょ","nyo"],
+   ["ひゃ","hya"],["ひゅ","hyu"],["ひょ","hyo"],["みゃ","mya"],["みゅ","myu"],["みょ","myo"],
+   ["りゃ","rya"],["りゅ","ryu"],["りょ","ryo"],["ぎゃ","gya"],["ぎゅ","gyu"],["ぎょ","gyo"],
+   ["じゃ","ja"],["じゅ","ju"],["じょ","jo"],["びゃ","bya"],["びゅ","byu"],["びょ","byo"],
+   ["ぴゃ","pya"],["ぴゅ","pyu"],["ぴょ","pyo"]
+  ]
+ },
+ kata: {
+  basic: [
+   ["ア","a"],["イ","i"],["ウ","u"],["エ","e"],["オ","o"],
+   ["カ","ka"],["キ","ki"],["ク","ku"],["ケ","ke"],["コ","ko"],
+   ["サ","sa"],["シ","shi"],["ス","su"],["セ","se"],["ソ","so"],
+   ["タ","ta"],["チ","chi"],["ツ","tsu"],["テ","te"],["ト","to"],
+   ["ナ","na"],["ニ","ni"],["ヌ","nu"],["ネ","ne"],["ノ","no"],
+   ["ハ","ha"],["ヒ","hi"],["フ","fu"],["ヘ","he"],["ホ","ho"],
+   ["マ","ma"],["ミ","mi"],["ム","mu"],["メ","me"],["モ","mo"],
+   ["ヤ","ya"],["ユ","yu"],["ヨ","yo"],
+   ["ラ","ra"],["リ","ri"],["ル","ru"],["レ","re"],["ロ","ro"],
+   ["ワ","wa"],["ヲ","wo (sering terdengar o)"],["ン","n"]
+  ],
+  dakuten: [
+   ["ガ","ga"],["ギ","gi"],["グ","gu"],["ゲ","ge"],["ゴ","go"],
+   ["ザ","za"],["ジ","ji"],["ズ","zu"],["ゼ","ze"],["ゾ","zo"],
+   ["ダ","da"],["ヂ","ji (jarang)"],["ヅ","zu (jarang)"],["デ","de"],["ド","do"],
+   ["バ","ba"],["ビ","bi"],["ブ","bu"],["ベ","be"],["ボ","bo"],
+   ["パ","pa"],["ピ","pi"],["プ","pu"],["ペ","pe"],["ポ","po"]
+  ],
+  combo: [
+   ["キャ","kya"],["キュ","kyu"],["キョ","kyo"],["シャ","sha"],["シュ","shu"],["ショ","sho"],
+   ["チャ","cha"],["チュ","chu"],["チョ","cho"],["ニャ","nya"],["ニュ","nyu"],["ニョ","nyo"],
+   ["ヒャ","hya"],["ヒュ","hyu"],["ヒョ","hyo"],["ミャ","mya"],["ミュ","myu"],["ミョ","myo"],
+   ["リャ","rya"],["リュ","ryu"],["リョ","ryo"],["ギャ","gya"],["ギュ","gyu"],["ギョ","gyo"],
+   ["ジャ","ja"],["ジュ","ju"],["ジョ","jo"],["ビャ","bya"],["ビュ","byu"],["ビョ","byo"],
+   ["ピャ","pya"],["ピュ","pyu"],["ピョ","pyo"]
+  ]
+ }
+};
+let kanaTypeFull="hira", kanaScoreFull=0, kanaQuizFullIndex=0, kanaAnsweredFull=false;
+const kanaQuizBase = [
+ {char:"あ",roma:"a",type:"hira"},{char:"き",roma:"ki",type:"hira"},{char:"し",roma:"shi",type:"hira"},
+ {char:"つ",roma:"tsu",type:"hira"},{char:"ね",roma:"ne",type:"hira"},{char:"ふ",roma:"fu",type:"hira"},
+ {char:"ん",roma:"n",type:"hira"},{char:"ア",roma:"a",type:"kata"},{char:"キ",roma:"ki",type:"kata"},
+ {char:"シ",roma:"shi",type:"kata"},{char:"ツ",roma:"tsu",type:"kata"},{char:"ン",roma:"n",type:"kata"},
+ {char:"が",roma:"ga",type:"hira"},{char:"ぱ",roma:"pa",type:"hira"},{char:"きゃ",roma:"kya",type:"hira"},
+ {char:"キャ",roma:"kya",type:"kata"}
+];
+function currentKanaSet(){
+ const group=document.getElementById("kanaGroup").value;
+ if(group==="all") return [...kanaData[kanaTypeFull].basic,...kanaData[kanaTypeFull].dakuten,...kanaData[kanaTypeFull].combo];
+ return kanaData[kanaTypeFull][group];
+}
+function renderKanaFull(){
+ const set=currentKanaSet();
+ const label={basic:"Huruf dasar: 46 karakter",dakuten:"Dakuten (゛) mengubah bunyi; handakuten (゜) membuat bunyi p pada baris は",combo:"Huruf gabungan dibuat dengan huruf ya/yu/yo kecil: ゃ・ゅ・ょ",all:"Tabel lengkap: huruf dasar, dakuten/handakuten, dan huruf gabungan"}[document.getElementById("kanaGroup").value];
+ document.getElementById("kanaGuide").textContent=(kanaTypeFull==="hira"?"Hiragana — sering dipakai untuk kata asli Jepang dan akhiran tata bahasa. ":"Katakana — sering dipakai untuk kata serapan, nama asing, dan penekanan. ")+label+". Tekan satu kartu untuk melihat huruf lebih besar dan mendengarkan bunyinya.";
+ const grid=document.getElementById("kanaGridFull");grid.innerHTML="";
+ set.forEach(([ch,roma])=>{
+  const b=document.createElement("button");b.className="kana-cell";b.innerHTML=`<div class="kana-char">${ch}</div><div class="kana-romaji">${roma}</div>`;
+  b.onclick=()=>showKanaFocus(ch,roma);grid.appendChild(b);
+ });
+ if(set.length) showKanaFocus(set[0][0],set[0][1]);
+}
+function showKanaFocus(ch,roma){
+ document.getElementById("kanaFocus").innerHTML=`<div class="kana-focus-char">${ch}</div><div style="flex:1"><h3>${ch} — ${roma}</h3><p>${kanaTypeFull==="hira"?"Hiragana":"Katakana"}: perhatikan bentuk huruf dan ucapkan bunyinya beberapa kali.</p><button class="primary speak" data-say="${ch}">🔊 Dengarkan pengucapan</button></div>`;
+}
+function renderKanaQuestion(){
+ const q=kanaQuizBase[kanaQuizFullIndex%kanaQuizBase.length];kanaAnsweredFull=false;
+ document.getElementById("kanaQ").textContent=`Huruf mana yang berbunyi “${q.roma}”?`;
+ const choices=[q];
+ const others=kanaQuizBase.filter(x=>x.roma!==q.roma || x.type!==q.type || x.char!==q.char);
+ while(choices.length<4){const c=others[Math.floor(Math.random()*others.length)];if(!choices.some(x=>x.char===c.char))choices.push(c);}
+ for(let i=choices.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[choices[i],choices[j]]=[choices[j],choices[i]];}
+ const box=document.getElementById("kanaChoices");box.innerHTML="";
+ choices.forEach(c=>{const b=document.createElement("button");b.className="secondary";b.style.fontSize="1.4rem";b.textContent=c.char;b.onclick=()=>{if(kanaAnsweredFull)return;kanaAnsweredFull=true;const ok=c.char===q.char; if(ok)kanaScoreFull++;document.getElementById("kanaFeedback").textContent=(ok?"Benar! 🌸 ":"Belum tepat. ")+"Jawaban: "+q.char+" = "+q.roma+".";document.getElementById("kanaScore").textContent="Skor sesi: "+kanaScoreFull+" benar";[...box.children].forEach(el=>{el.disabled=true;if(el.textContent===q.char)el.style.borderColor="#32966d";});};box.appendChild(b);});
+ document.getElementById("kanaFeedback").textContent="";
+}
+
+const kanjiLessons = [
+ {k:"木",reading:"き (ki)",meaning:"pohon / kayu",group:"nature",parts:["木 = pohon"],memory:"Bayangkan batang di tengah, cabang di atas, dan akar di bawah. Bentuk ini bisa mengingatkan kita pada pohon.",example:"木があります。— Ada pohon.",say:"木があります。",art:"tree"},
+ {k:"林",reading:"はやし (hayashi)",meaning:"rimbun pohon kecil / hutan kecil",group:"nature",parts:["木 = pohon","木 = pohon"],memory:"Dua pohon berdiri berdampingan: 木 + 木 = 林. Gunakan gambaran dua pohon untuk mengingatnya.",example:"林（はやし）— rumpun pepohonan.",say:"林",art:"forest"},
+ {k:"森",reading:"もり (mori)",meaning:"hutan",group:"nature",parts:["木 = pohon","木 = pohon","木 = pohon"],memory:"Tiga pohon membentuk gambaran hutan: 木 + 木 + 木 = 森. Ini cara visual mengingat bentuknya.",example:"森（もり）— hutan.",say:"森",art:"forest3"},
+ {k:"山",reading:"やま (yama)",meaning:"gunung",group:"nature",parts:["puncak tengah","dua sisi"],memory:"Tiga garis tegak bisa dibayangkan sebagai puncak-puncak gunung.",example:"山（やま）— gunung.",say:"山",art:"mountain"},
+ {k:"川",reading:"かわ (kawa)",meaning:"sungai",group:"nature",parts:["tiga aliran"],memory:"Tiga garis mengalir dari atas ke bawah, seperti aliran sungai.",example:"川（かわ）— sungai.",say:"川",art:"river"},
+ {k:"日",reading:"ひ (hi) / にち (nichi)",meaning:"matahari / hari",group:"nature",parts:["bentuk matahari yang disederhanakan"],memory:"Bayangkan matahari berbentuk kotak dengan garis di tengah. 日 juga muncul dalam kata 日本 (にほん, Jepang).",example:"日曜日（にちようび）— hari Minggu.",say:"日曜日",art:"sun"},
+ {k:"月",reading:"つき (tsuki) / げつ (getsu)",meaning:"bulan",group:"nature",parts:["bentuk bulan yang disederhanakan"],memory:"Bayangkan bulan sabit dalam bentuk kotak memanjang. 月 juga muncul dalam 月曜日 (げつようび, Senin).",example:"月（つき）— bulan.",say:"月",art:"moon"},
+ {k:"人",reading:"ひと (hito)",meaning:"orang",group:"people",parts:["dua garis seperti kaki"],memory:"Dua garis dapat dibayangkan sebagai seseorang yang berdiri.",example:"日本人（にほんじん）— orang Jepang.",say:"人",art:"person"},
+ {k:"休",reading:"やすむ (yasumu)",meaning:"istirahat",group:"people",parts:["亻 = bentuk sisi dari 人 (orang)","木 = pohon"],memory:"Mnemonik: seseorang berada di samping pohon untuk beristirahat. Ini bantuan mengingat, bukan penjelasan etimologi lengkap.",example:"休みます（やすみます）— beristirahat / libur.",say:"休みます",art:"rest"},
+ {k:"体",reading:"からだ (karada)",meaning:"tubuh",group:"people",parts:["亻 = bentuk sisi dari 人","本 = buku / asal"],memory:"Kenali bentuk kiri 亻 sebagai komponen yang sering berkaitan dengan orang. Makna tubuh dipelajari sebagai satu kanji utuh; jangan menganggap gabungannya selalu menjelaskan arti secara harfiah.",example:"体（からだ）— tubuh.",say:"体",art:"body"},
+ {k:"口",reading:"くち (kuchi)",meaning:"mulut",group:"people",parts:["bentuk kotak"],memory:"Kotak sederhana bisa mengingatkan pada mulut yang terbuka.",example:"入口（いりぐち）— pintu masuk.",say:"口",art:"mouth"},
+ {k:"手",reading:"て (te)",meaning:"tangan",group:"people",parts:["garis dan bentuk telapak/jari"],memory:"Bayangkan garis-garis sebagai telapak dan jari tangan.",example:"手を洗います（てをあらいます）— mencuci tangan.",say:"手を洗います",art:"hand"},
+ {k:"明",reading:"あかるい (akarui) / めい (mei)",meaning:"terang",group:"daily",parts:["日 = matahari","月 = bulan"],memory:"Mnemonik: matahari dan bulan sama-sama memberi cahaya, jadi 明 mengingatkan pada terang.",example:"明るい（あかるい）— terang.",say:"明るい",art:"bright"},
+ {k:"田",reading:"た (ta)",meaning:"sawah",group:"daily",parts:["petak sawah"],memory:"Garis di dalam kotak bisa dibayangkan membagi sawah menjadi beberapa petak.",example:"田んぼ（たんぼ）— sawah.",say:"田んぼ",art:"field"},
+ {k:"力",reading:"ちから (chikara)",meaning:"kekuatan",group:"daily",parts:["bentuk kanji utuh"],memory:"Ingat sebagai simbol kekuatan. Bentuk dan asal sejarahnya lebih kompleks daripada gambar sederhana.",example:"力（ちから）— kekuatan.",say:"力",art:"strength"},
+ {k:"食",reading:"たべる (taberu) / しょく (shoku)",meaning:"makan / makanan",group:"daily",parts:["bentuk kanji utuh"],memory:"Hafalkan arti dasarnya terlebih dahulu. Jangan memecah bentuk ini menjadi bagian bermakna secara sembarangan.",example:"食べます（たべます）— makan.",say:"食べます",art:"food"},
+ {k:"水",reading:"みず (mizu)",meaning:"air",group:"nature",parts:["tengah dan cabang aliran"],memory:"Garis-garisnya bisa dibayangkan sebagai air yang mengalir ke samping.",example:"水（みず）— air.",say:"水",art:"water"},
+ {k:"火",reading:"ひ (hi) / か (ka)",meaning:"api",group:"nature",parts:["nyala dan percikan"],memory:"Bayangkan garis tengah sebagai nyala api dan garis miring sebagai percikan.",example:"火（ひ）— api.",say:"火",art:"fire"},
+ {k:"大",reading:"おおきい (ōkii) / だい (dai)",meaning:"besar",group:"daily",parts:["人 dengan garis melebar"],memory:"Bayangkan seseorang merentangkan tangan lebar-lebar untuk menunjukkan sesuatu yang besar.",example:"大きい（おおきい）— besar.",say:"大きい",art:"strength",strokes:3,strokeOrder:"Goresan mendatar, lalu garis miring kiri, kemudian garis miring kanan."},
+ {k:"小",reading:"ちいさい (chiisai) / しょう (shō)",meaning:"kecil",group:"daily",parts:["tiga garis"],memory:"Tiga garis kecil mengingatkan pada sesuatu yang mungil.",example:"小さい（ちいさい）— kecil.",say:"小さい",art:"bright",strokes:3,strokeOrder:"Garis tegak tengah, lalu titik/miring kiri, lalu titik/miring kanan."},
+ {k:"上",reading:"うえ (ue) / じょう (jō)",meaning:"atas",group:"daily",parts:["garis penanda di atas garis dasar"],memory:"Garis pendek berada di atas garis mendatar panjang.",example:"上（うえ）— atas.",say:"上",art:"mountain",strokes:3,strokeOrder:"Garis tegak, garis mendatar panjang, lalu garis pendek di atas."},
+ {k:"下",reading:"した (shita) / か (ka)",meaning:"bawah",group:"daily",parts:["garis penanda di bawah garis dasar"],memory:"Garis pendek berada di bawah garis mendatar panjang.",example:"下（した）— bawah.",say:"下",art:"river",strokes:3,strokeOrder:"Garis mendatar, garis tegak menembusnya, lalu titik pendek di bawah."},
+ {k:"中",reading:"なか (naka) / ちゅう (chū)",meaning:"tengah / dalam",group:"daily",parts:["口 = bentuk kotak","garis tegak di tengah"],memory:"Garis tegak tepat melewati bagian tengah kotak.",example:"中（なか）— di dalam / tengah.",say:"中",art:"field",strokes:4,strokeOrder:"Kotak: sisi kiri, sisi atas dan kanan, bawah, lalu garis tegak tengah."},
+ {k:"本",reading:"ほん (hon)",meaning:"buku / asal",group:"daily",parts:["木 = pohon","garis pendek penanda pangkal"],memory:"Berangkat dari bentuk 木, lalu garis kecil menandai bagian pangkal. Makna buku/asal perlu diingat sebagai kosakata.",example:"本（ほん）— buku.",say:"本",art:"tree",strokes:5,strokeOrder:"Goresan utama seperti 木, kemudian garis pendek penanda pangkal."},
+ {k:"学",reading:"がく (gaku) / まなぶ (manabu)",meaning:"belajar",group:"people",parts:["bagian atas seperti atap","子 = anak"],memory:"Bayangkan anak yang sedang belajar di bawah atap; ini mnemonik untuk mengingat bentuk.",example:"学生（がくせい）— pelajar/mahasiswa.",say:"学生",art:"person",strokes:8,strokeOrder:"Bagian atas dahulu, lalu bagian 子 di bawah; umumnya dari atas ke bawah."},
+ {k:"生",reading:"せい (sei) / いきる (ikiru)",meaning:"hidup / lahir",group:"people",parts:["bentuk kanji utuh"],memory:"Hafalkan bentuk dan makna dasarnya bersama kosakata; makna tiap goresan tidak selalu bisa ditebak dari gambar.",example:"学生（がくせい）— pelajar; 生まれる（うまれる）— lahir.",say:"学生",art:"plant",strokes:5,strokeOrder:"Goresan atas dahulu, lalu garis mendatar dan tegak sesuai urutan standar."},
+ {k:"先",reading:"さき (saki) / せん (sen)",meaning:"lebih dahulu / depan",group:"daily",parts:["bentuk kanji utuh"],memory:"Hubungkan dengan kata 先生 (せんせい, guru) sebagai kosakata yang sering ditemui.",example:"先生（せんせい）— guru.",say:"先生",art:"bright",strokes:6,strokeOrder:"Bagian atas lebih dahulu, lalu bagian bawah."},
+ {k:"友",reading:"とも (tomo) / ゆう (yū)",meaning:"teman",group:"people",parts:["bentuk kanji utuh"],memory:"Ingat lewat kata 友だち（ともだち）, yang berarti teman.",example:"友だち（ともだち）— teman.",say:"友だち",art:"person",strokes:4,strokeOrder:"Goresan atas, lalu bagian bawah; ikuti arah goresan dari kiri ke kanan dan atas ke bawah."},
+ {k:"女",reading:"おんな (onna) / じょ (jo)",meaning:"perempuan",group:"people",parts:["bentuk kanji utuh"],memory:"Pelajari sebagai satu bentuk utuh dan kenali dalam kata seperti 女の人（おんなのひと）.",example:"女の人（おんなのひと）— perempuan.",say:"女の人",art:"person",strokes:3,strokeOrder:"Goresan miring kiri, goresan melengkung, lalu garis miring panjang."},
+ {k:"男",reading:"おとこ (otoko) / だん (dan)",meaning:"laki-laki",group:"people",parts:["田 = sawah","力 = kekuatan"],memory:"Kanji ini tersusun dari 田 dan 力 secara bentuk; hafalkan makna laki-laki sebagai satu kesatuan.",example:"男の人（おとこのひと）— laki-laki.",say:"男の人",art:"strength",strokes:7,strokeOrder:"Tulis bagian 田 lebih dahulu, kemudian 力."},
+ {k:"子",reading:"こ (ko) / し (shi)",meaning:"anak",group:"people",parts:["bentuk kanji utuh"],memory:"Kenali dalam kata 子ども（こども）, artinya anak.",example:"子ども（こども）— anak.",say:"子ども",art:"person",strokes:3,strokeOrder:"Goresan melengkung atas, garis tegak, lalu garis mendatar."},
+ {k:"見",reading:"みる (miru) / けん (ken)",meaning:"melihat",group:"people",parts:["目 = mata","bagian bawah seperti kaki"],memory:"Bagian atas mengingatkan pada 目 (mata), jadi hubungkan dengan kegiatan melihat.",example:"見ます（みます）— melihat.",say:"見ます",art:"bright",strokes:7,strokeOrder:"Bagian atas seperti 目 lebih dahulu, lalu dua goresan bagian bawah."},
+ {k:"行",reading:"いく (iku) / こう (kō)",meaning:"pergi / berjalan",group:"daily",parts:["bentuk kanji utuh"],memory:"Ingat melalui kata 行きます（いきます）, yang berarti pergi.",example:"行きます（いきます）— pergi.",say:"行きます",art:"river",strokes:6,strokeOrder:"Bagian kiri lebih dahulu, kemudian bagian kanan."},
+ {k:"入",reading:"はいる (hairu) / にゅう (nyū)",meaning:"masuk",group:"daily",parts:["dua garis bertemu"],memory:"Bayangkan dua garis bergerak masuk dan bertemu ke satu arah.",example:"入口（いりぐち）— pintu masuk.",say:"入口",art:"mountain",strokes:2,strokeOrder:"Goresan miring kiri dahulu, lalu goresan miring kanan yang lebih panjang."},
+ {k:"出",reading:"でる (deru) / しゅつ (shutsu)",meaning:"keluar",group:"daily",parts:["bentuk bertingkat"],memory:"Bayangkan sesuatu muncul keluar melewati batas; ingat sebagai satu bentuk kanji.",example:"出口（でぐち）— pintu keluar.",say:"出口",art:"mountain",strokes:5,strokeOrder:"Tulis bagian atas lebih dahulu, kemudian bagian bawah."},
+ {k:"年",reading:"とし (toshi) / ねん (nen)",meaning:"tahun",group:"daily",parts:["bentuk kanji utuh"],memory:"Hubungkan dengan 毎年（まいとし）, artinya setiap tahun.",example:"今年（ことし）— tahun ini.",say:"今年",art:"field",strokes:6,strokeOrder:"Goresan atas lebih dahulu, lalu bagian tengah dan bawah."},
+ {k:"時",reading:"とき (toki) / じ (ji)",meaning:"waktu / jam",group:"daily",parts:["日 = hari","寺 = kuil (komponen bentuk)"],memory:"Kenali 日 di sisi kiri. Dalam kosakata, 時 sering berkaitan dengan waktu.",example:"何時（なんじ）— pukul berapa.",say:"何時",art:"sun",strokes:10,strokeOrder:"Tulis 日 di kiri lebih dahulu, lalu 寺 di kanan."},
+ {k:"分",reading:"ふん (fun) / ぶん (bun) / わかる (wakaru)",meaning:"menit / bagian / memahami",group:"daily",parts:["八 = bentuk atas","刀 = pisau (komponen bentuk)"],memory:"Arti bergantung pada kata: 一分（いっぷん） satu menit, 分かります（わかります） mengerti.",example:"五分（ごふん）— lima menit.",say:"五分",art:"bright",strokes:4,strokeOrder:"Bagian atas dahulu, kemudian bentuk seperti 刀 di bawah."},
+ {k:"前",reading:"まえ (mae) / ぜん (zen)",meaning:"sebelum / depan",group:"daily",parts:["bentuk kanji utuh"],memory:"Ingat lewat kata 名前（なまえ, nama） dan 午前（ごぜん, pagi/sebelum tengah hari）.",example:"前（まえ）— depan / sebelumnya.",say:"前",art:"bright",strokes:9,strokeOrder:"Bagian atas lebih dahulu, kemudian bagian bawah."},
+ {k:"後",reading:"あと (ato) / うしろ (ushiro) / ご (go)",meaning:"sesudah / belakang",group:"daily",parts:["彳 = langkah (komponen bentuk)","bagian kanan"],memory:"Bandingkan 前 (sebelum/depan) dan 後 (sesudah/belakang) agar mudah mengingat pasangan maknanya.",example:"午後（ごご）— siang/sore, setelah tengah hari.",say:"午後",art:"river",strokes:9,strokeOrder:"Bagian kiri 彳 lebih dahulu, lalu bagian kanan."}
+];
+function kanjiSvg(type){
+ const common = 'fill="none" stroke="#a83f68" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"';
+ const svgs = {
+  plant:`<svg viewBox="0 0 100 90" role="img" aria-label="Tunas tumbuh"><path ${common} d="M50 76V37M50 52C32 52 26 40 27 30C40 30 50 39 50 52ZM50 43C50 26 62 18 76 19C76 33 65 43 50 43Z"/><path d="M25 77H76" stroke="#a83f68" stroke-width="3" stroke-linecap="round"/></svg>`,
+  tree:`<svg viewBox="0 0 100 90" role="img" aria-label="Ilustrasi pohon"><path ${common} d="M50 76V35M50 47L31 31M50 55L69 39M50 35L42 23M50 35L61 22M38 76H62"/><circle cx="32" cy="25" r="12" fill="#f5bfd1"/><circle cx="50" cy="17" r="14" fill="#f8d7e4"/><circle cx="68" cy="27" r="12" fill="#f5bfd1"/></svg>`,
+  forest:`<svg viewBox="0 0 100 90" role="img" aria-label="Dua pohon"><path ${common} d="M27 72V38M27 49L15 39M27 43L39 31M70 72V38M70 50L58 39M70 43L82 31"/><circle cx="27" cy="29" r="16" fill="#f5bfd1"/><circle cx="70" cy="29" r="16" fill="#f8d7e4"/></svg>`,
+  forest3:`<svg viewBox="0 0 100 90" role="img" aria-label="Tiga pohon"><path ${common} d="M20 74V43M50 74V34M80 74V43"/><circle cx="20" cy="34" r="13" fill="#f5bfd1"/><circle cx="50" cy="25" r="17" fill="#f8d7e4"/><circle cx="80" cy="34" r="13" fill="#f5bfd1"/></svg>`,
+  mountain:`<svg viewBox="0 0 100 90" role="img" aria-label="Gunung"><path ${common} d="M10 70L34 30L49 53L63 18L91 70Z"/><path d="M26 43L34 30L42 42M55 31L63 18L72 34" fill="#fff" stroke="#a83f68" stroke-width="2.5"/></svg>`,
+  river:`<svg viewBox="0 0 100 90" role="img" aria-label="Sungai"><path ${common} d="M26 14C18 29 35 35 26 49S20 68 27 78M50 12C42 28 59 37 50 51S44 67 51 79M74 14C66 28 83 38 74 52S68 67 75 78"/></svg>`,
+  sun:`<svg viewBox="0 0 100 90" role="img" aria-label="Matahari"><circle cx="50" cy="43" r="21" fill="#f7c5d8"/><path ${common} d="M50 7V14M50 72V79M14 43H21M79 43H86M24 17L29 22M71 64L76 69M24 69L29 64M71 22L76 17"/><circle cx="50" cy="43" r="12" fill="#fbe5a7"/></svg>`,
+  moon:`<svg viewBox="0 0 100 90" role="img" aria-label="Bulan sabit"><path d="M63 13C35 19 30 58 57 72C39 76 20 61 20 42C20 21 40 6 63 13Z" fill="#f4d5e2" stroke="#a83f68" stroke-width="3"/><circle cx="71" cy="25" r="3" fill="#a83f68"/><circle cx="79" cy="42" r="2" fill="#a83f68"/></svg>`,
+  person:`<svg viewBox="0 0 100 90" role="img" aria-label="Orang berdiri"><circle cx="50" cy="20" r="10" fill="#f5bfd1" stroke="#a83f68" stroke-width="2.5"/><path ${common} d="M50 31V58M50 39L31 49M50 39L69 49M50 58L36 78M50 58L64 78"/></svg>`,
+  rest:`<svg viewBox="0 0 100 90" role="img" aria-label="Orang beristirahat di bawah pohon"><path ${common} d="M77 73V35M77 45L64 32M77 43L88 30M77 35L72 23"/><circle cx="77" cy="24" r="12" fill="#f5bfd1"/><circle cx="32" cy="32" r="8" fill="#f8d7e4" stroke="#a83f68" stroke-width="2.5"/><path ${common} d="M32 42L42 55L58 56M42 55L34 70M42 55L51 68"/></svg>`,
+  body:`<svg viewBox="0 0 100 90" role="img" aria-label="Siluet tubuh"><circle cx="50" cy="18" r="10" fill="#f5bfd1" stroke="#a83f68" stroke-width="2.5"/><path ${common} d="M50 29V58M50 38L33 51M50 38L67 51M50 58L38 78M50 58L62 78"/></svg>`,
+  mouth:`<svg viewBox="0 0 100 90" role="img" aria-label="Mulut"><rect x="27" y="24" width="46" height="40" rx="5" fill="#f5bfd1" stroke="#a83f68" stroke-width="3"/><path ${common} d="M35 43H65"/></svg>`,
+  hand:`<svg viewBox="0 0 100 90" role="img" aria-label="Tangan"><path d="M32 71L22 48Q20 41 26 39Q31 38 34 45L38 53V22Q38 15 44 15Q50 15 50 22V43V19Q50 12 56 13Q62 14 62 21V44V25Q62 18 68 20Q73 21 72 28V48L77 42Q82 37 86 42Q89 46 85 52L72 72Q67 80 57 80H46Q37 80 32 71Z" fill="#f8d7e4" stroke="#a83f68" stroke-width="2.5"/></svg>`,
+  bright:`<svg viewBox="0 0 100 90" role="img" aria-label="Matahari dan bulan"><circle cx="31" cy="35" r="17" fill="#f5bfd1" stroke="#a83f68" stroke-width="2"/><path d="M76 25C56 29 55 56 73 65C59 68 47 58 47 45C47 31 60 20 76 25Z" fill="#f7e3a5" stroke="#a83f68" stroke-width="2.5"/><path ${common} d="M18 10V16M10 35H15M48 35H53"/></svg>`,
+  field:`<svg viewBox="0 0 100 90" role="img" aria-label="Petak sawah"><rect x="19" y="15" width="62" height="60" rx="3" fill="#d9efc8" stroke="#a83f68" stroke-width="3"/><path ${common} d="M50 15V75M19 45H81"/></svg>`,
+  strength:`<svg viewBox="0 0 100 90" role="img" aria-label="Kekuatan"><path d="M18 54L34 37L47 48L66 25L82 40L59 67L43 57L30 70Z" fill="#f5bfd1" stroke="#a83f68" stroke-width="3" stroke-linejoin="round"/><path ${common} d="M12 28L22 33M77 14L74 23M86 61L77 63"/></svg>`,
+  food:`<svg viewBox="0 0 100 90" role="img" aria-label="Mangkuk makanan"><path d="M18 42H82L75 66Q50 84 25 66Z" fill="#fff" stroke="#a83f68" stroke-width="3"/><path d="M23 42Q27 20 43 32Q52 15 63 31Q78 20 81 42Z" fill="#f5bfd1" stroke="#a83f68" stroke-width="2.5"/><path ${common} d="M70 15L84 29M76 11L89 24"/></svg>`,
+  water:`<svg viewBox="0 0 100 90" role="img" aria-label="Tetes air"><path d="M50 10C42 26 24 43 24 57A26 26 0 0 0 76 57C76 43 58 26 50 10Z" fill="#dceefa" stroke="#a83f68" stroke-width="3"/><path ${common} d="M40 59Q42 69 51 70"/></svg>`,
+  fire:`<svg viewBox="0 0 100 90" role="img" aria-label="Api"><path d="M51 12C56 31 39 35 45 49C31 43 32 33 32 33C16 51 25 76 49 78C73 79 84 54 67 35C67 48 60 51 59 52C64 34 51 22 51 12Z" fill="#f6a7a7" stroke="#a83f68" stroke-width="3"/><path d="M50 49C56 57 57 64 50 69C43 65 42 58 50 49Z" fill="#ffe8a6"/></svg>`
+ };
+ return svgs[type] || svgs.tree;
+}
+function renderKanji(){
+ const grid=document.getElementById("kanjiGrid");
+ const filter=document.getElementById("kanjiLevel").value;
+ grid.innerHTML="";
+ kanjiLessons.filter(x=>filter==="all"||x.group===filter).forEach(x=>{
+  const b=document.createElement("button"); b.className="kanji-card";
+  b.innerHTML=`<div class="kanji-illustration">${kanjiSvg(x.art)}</div><div><div class="kanji-big">${x.k}</div><h3>${x.meaning}</h3><p>${x.reading}</p><p>Tekan untuk bedah →</p></div>`;
+  b.onclick=()=>showKanjiDetail(x); grid.appendChild(b);
+ });
+}
+function showKanjiDetail(x){
+ const detail=document.getElementById("kanjiDetail");
+ detail.innerHTML=`<div class="row" style="align-items:flex-start"><div class="kanji-illustration" style="min-width:95px">${kanjiSvg(x.art)}<span class="kanji-big">${x.k}</span></div><div style="flex:1"><h3>${x.k} — ${x.reading}</h3><p><strong>Arti:</strong> ${x.meaning}</p><div class="component-pills">${x.parts.map(p=>`<span>${p}</span>`).join("")}</div><p>${x.memory}</p><p><strong>Contoh:</strong> ${x.example}</p><p><strong>Jumlah goresan:</strong> ${x.strokes || "akan dipelajari bertahap"}</p><p><strong>Urutan goresan (ringkas):</strong> ${x.strokeOrder || "Ikuti urutan standar dari atas ke bawah dan kiri ke kanan; detail goresan akan dilengkapi bertahap."}</p><button class="primary speak" data-say="${x.say}">🔊 Dengarkan contoh</button></div></div>`;
+}
+const kanjiQuizItems=[
+ {q:"Kanji 木 berarti …",opts:["Air","Pohon / kayu","Gunung"],a:1,why:"木 dibaca き (ki) untuk pohon/kayu."},
+ {q:"Dua 木 digabung menjadi 林. Mnemoniknya …",opts:["Dua pohon","Dua sungai","Dua orang"],a:0,why:"林 dibayangkan sebagai dua pohon yang berdekatan."},
+ {q:"Kanji 山 berarti …",opts:["Api","Mulut","Gunung"],a:2,why:"山 dibaca やま (yama), artinya gunung."},
+ {q:"Kanji 休 paling mudah diingat sebagai …",opts:["Seseorang beristirahat dekat pohon","Matahari dan bulan","Petak sawah"],a:0,why:"Ini mnemonik visual: 亻 (orang) + 木 (pohon)."},
+ {q:"Kanji 食 berkaitan dengan …",opts:["Makan / makanan","Kekuatan","Sungai"],a:0,why:"食べます (たべます) berarti makan."},
+ {q:"Kanji 水 berarti …",opts:["Api","Air","Hari"],a:1,why:"水 dibaca みず (mizu), artinya air."}
+];
+let kanjiQuizIndex=0, kanjiQuizAnswered=false;
+function renderKanjiQuiz(){
+ const q=kanjiQuizItems[kanjiQuizIndex%kanjiQuizItems.length];
+ kanjiQuizAnswered=false;
+ document.getElementById("kanjiQuestion").textContent=`${kanjiQuizIndex+1}. ${q.q}`;
+ document.getElementById("kanjiFeedback").textContent="";
+ const box=document.getElementById("kanjiOptions"); box.innerHTML="";
+ q.opts.forEach((opt,i)=>{const b=document.createElement("button");b.className="secondary";b.textContent=opt;b.onclick=()=>{if(kanjiQuizAnswered)return;kanjiQuizAnswered=true;document.getElementById("kanjiFeedback").textContent=(i===q.a?"Benar! ":"Belum tepat. ")+q.why;[...box.children].forEach((el,j)=>{el.disabled=true;if(j===q.a)el.style.borderColor="#32966d"});};box.appendChild(b);});
+}
+
+try {
+ const saved = JSON.parse(localStorage.getItem("sakuraNihongoProgress") || "null");
+ if (saved && Number.isFinite(saved.score) && Number.isFinite(saved.asked)) {
+   score = saved.score; asked = saved.asked;
+ }
+} catch (_) {}
+function saveProgress(){
+ try { localStorage.setItem("sakuraNihongoProgress", JSON.stringify({score, asked})); } catch (_) {}
+}
+const questions=[
+ {q:"Apa arti 「みず」 (mizu)?",opts:["Air","Api","Buku","Kucing"],a:0,why:"みず (mizu) berarti air."},
+ {q:"Apa arti 「ねこ」 (neko)?",opts:["Anjing","Kucing","Burung","Ikan"],a:1,why:"ねこ (neko) berarti kucing."},
+ {q:"「ありがとう」 digunakan untuk…",opts:["Meminta maaf","Mengucapkan terima kasih","Mengucapkan selamat malam","Memanggil orang"],a:1,why:"ありがとう berarti terima kasih."},
+ {q:"Apa arti 「食べます（たべます）」?",opts:["Minum","Pergi","Makan","Tidur"],a:2,why:"食べます (tabemasu) berarti makan."},
+ {q:"「おはようございます」 biasanya diucapkan saat…",opts:["Pagi hari","Tengah malam saja","Berpisah selamanya","Memesan makanan"],a:0,why:"Ungkapan sopan ini berarti selamat pagi."},
+ {q:"Apa arti 「ほん」 (hon)?",opts:["Buku","Air","Mobil","Pintu"],a:0,why:"本（ほん）berarti buku."},
+ {q:"Apa arti 「いぬ」 (inu)?",opts:["Kucing","Anjing","Burung","Ikan"],a:1,why:"犬（いぬ）berarti anjing."},
+ {q:"「すみません」 dapat berarti…",opts:["Permisi/maaf","Selamat tidur","Selamat datang saja","Sampai tahun depan"],a:0,why:"すみません dipakai untuk permisi atau meminta maaf."},
+ {q:"Apa arti 「のみます」 (nomimasu)?",opts:["Makan","Minum","Membaca","Bekerja"],a:1,why:"飲みます berarti minum."},
+ {q:"「会社（かいしゃ）」 berarti…",opts:["Sekolah","Rumah sakit","Perusahaan","Stasiun"],a:2,why:"会社 berarti perusahaan."},
+ {q:"Apa arti 「やすみます」 (yasumimasu)?",opts:["Beristirahat/libur","Membeli","Mencuci","Mendengar"],a:0,why:"休みます berarti beristirahat atau libur."},
+ {q:"「手洗い（てあらい）」 berarti…",opts:["Sarung tangan","Cuci tangan","Masker","Suhu"],a:1,why:"手洗い berarti cuci tangan."},
+ {q:"Apa arti 「安全（あんぜん）」?",opts:["Bahaya","Keselamatan/aman","Batas waktu","Bahan baku"],a:1,why:"安全 berarti aman atau keselamatan."},
+ {q:"「温度（おんど）」 berarti…",opts:["Suhu","Waktu","Rasa","Ukuran"],a:0,why:"温度 berarti suhu."},
+ {q:"Apa arti 「確認（かくにん）してください」?",opts:["Tolong periksa","Tolong pulang","Tolong makan","Tolong tidur"],a:0,why:"確認してください berarti tolong periksa/konfirmasi."},
+ {q:"「わかりません」 berarti…",opts:["Saya mengerti","Saya tidak mengerti","Saya sudah selesai","Saya setuju"],a:1,why:"わかりません berarti saya tidak mengerti."},
+ {q:"Partikel 「を」 biasanya menandai…",opts:["Objek tindakan","Topik kalimat saja","Tempat asal","Nama orang"],a:0,why:"を menandai objek langsung, misalnya ごはんを食べます."},
+ {q:"「原材料（げんざいりょう）」 berarti…",opts:["Bahan baku","Produk jadi","Sarung tangan","Laporan"],a:0,why:"原材料 berarti bahan baku."},
+ {q:"「報告（ほうこく）」 berarti…",opts:["Laporan","Pendinginan","Pemanasan","Cuci tangan"],a:0,why:"報告 berarti laporan atau pelaporan."}
+];
+
+const studyData = {
+ particles:{intro:'Partikel menunjukkan hubungan kata dalam kalimat. Arti partikel bergantung pada konteks; pelajari melalui contoh.',items:[
+ ['は (wa)','penanda topik','わたしはフィトリです。','Watashi wa Fitri desu. — Saya Fitri.'],['が (ga)','subjek/fokus; juga untuk kemampuan dan keberadaan','ねこがいます。','Neko ga imasu. — Ada kucing.'],['を (o)','objek tindakan','パンを食べます。','Pan o tabemasu. — Saya makan roti.'],['に (ni)','waktu tertentu, tujuan, lokasi keberadaan','七時に起きます。','Shichi-ji ni okimasu. — Bangun pukul tujuh.'],['で (de)','tempat kegiatan atau alat/cara','店で買います。','Mise de kaimasu. — Membeli di toko.'],['へ (e)','arah tujuan','日本へ行きます。','Nihon e ikimasu. — Pergi ke Jepang.'],['と (to)','dan; bersama; kutipan','母と行きます。','Haha to ikimasu. — Pergi bersama ibu.'],['も (mo)','juga','わたしも学生です。','Watashi mo gakusei desu. — Saya juga pelajar.'],['の (no)','kepemilikan/keterangan nomina','わたしの本です。','Watashi no hon desu. — Ini buku saya.'],['から／まで','dari/sampai','九時から五時まで働きます。','Ku-ji kara go-ji made hatarakimasu. — Bekerja dari jam 9 sampai 5.'],['や／など','menyebut contoh, tidak semua','りんごやバナナなど','Ringo ya banana nado — apel, pisang, dan sebagainya.'],['より／のほうが','perbandingan','電車のほうが速いです。','Densha no hō ga hayai desu. — Kereta lebih cepat.'],['だけ／しか〜ない','hanya / tidak lebih dari (しか dengan bentuk negatif)','水だけ飲みます。','Mizu dake nomimasu. — Hanya minum air.'],['ても／でも','meskipun / bahkan jika','雨でも行きます。','Ame demo ikimasu. — Tetap pergi meski hujan.'],['ので／のに','karena (lebih halus) / padahal','忙しいので行けません。','Isogashii node ikemasen. — Karena sibuk, saya tidak bisa pergi.'],['たり〜たりする','melakukan hal seperti A dan B','休みの日は本を読んだり、料理したりします。','Yasumi no hi wa hon o yondari, ryōri shitari shimasu. — Saat libur saya membaca, memasak, dan sebagainya.'],['ば／たら／なら','pola syarat: jika/apabila; penggunaan berbeda','時間があったら行きます。','Jikan ga attara ikimasu. — Kalau ada waktu, saya pergi.'],['ために／ように','demi tujuan / supaya atau agar','日本語を勉強するために本を買いました。','Nihongo o benkyō suru tame ni hon o kaimashita. — Membeli buku untuk belajar bahasa Jepang.']]},
+ verbs:{intro:'Perubahan dasar: bentuk kamus, ます (sopan), ない (negatif), て (permintaan/rangkaian), た (lampau), 可能形 (bisa), 意向形 (ajakan/niat). Bentuk kelompok perlu dipelajari bersama pengecualian.',items:[
+ ['食べる（たべる）','makan · kelompok 2','食べます／食べない／食べて／食べた','tabemasu / tabenai / tabete / tabeta'],['見る（みる）','melihat · kelompok 2','見ます／見ない／見て／見た','mimasu / minai / mite / mita'],['起きる（おきる）','bangun · kelompok 2','起きます／起きない／起きて／起きた','okimasu / okinai / okite / okita'],['書く（かく）','menulis · kelompok 1','書きます／書かない／書いて／書いた','kakimasu / kakanai / kaite / kaita'],['飲む（のむ）','minum · kelompok 1','飲みます／飲まない／飲んで／飲んだ','nomimasu / nomanai / nonde / nonda'],['話す（はなす）','berbicara · kelompok 1','話します／話さない／話して／話した','hanashimasu / hanasanai / hanashite / hanashita'],['行く（いく）','pergi · kelompok 1, te-form khusus','行きます／行かない／行って／行った','ikimasu / ikanai / itte / itta'],['買う（かう）','membeli · kelompok 1','買います／買わない／買って／買った','kaimasu / kawanai / katte / katta'],['する','melakukan · tidak beraturan','します／しない／して／した','shimasu / shinai / shite / shita'],['来る（くる）','datang · tidak beraturan','来ます（きます）／来ない（こない）／来て（きて）／来た（きた）','kimasu / konai / kite / kita'],['働く（はたらく）','bekerja','働きます／働かない／働いて／働いた','hatarakimasu / hatarakanai / hataraite / hataraita'],['持つ（もつ）','membawa/memegang','持てる (bisa membawa)／持って (bentuk te)','motsu / moteru / motte'],['Bentuk potensial','menyatakan “bisa”','食べられる、書ける、できます','taberareru, kakeru, dekimasu'],['Bentuk keinginan たい','ingin melakukan','日本へ行きたいです。','Nihon e ikitai desu. — Saya ingin pergi ke Jepang.'],['Bentuk larangan ないでください','tolong jangan','ここで写真を撮らないでください。','Koko de shashin o toranaide kudasai. — Tolong jangan mengambil foto di sini.'],['〜なければなりません','harus melakukan','薬を飲まなければなりません。','Kusuri o nomanakereba narimasen. — Harus minum obat.'],['〜てもいいです／〜てはいけません','boleh / tidak boleh','ここに座ってもいいですか。','Koko ni suwatte mo ii desu ka. — Bolehkah saya duduk di sini?']]},
+ adjectives:{intro:'Kata sifat い biasanya berakhir い; kata sifat な memakai な sebelum nomina. Perhatikan pengecualian seperti きれい (na-adjective).',items:[
+ ['高い（たかい）','mahal/tinggi · i','高くない／高かった／高くなかった','takai / takakunai / takakatta / takakunakatta'],['安い（やすい）','murah · i','安くない／安かった','yasui / yasukunai / yasukatta'],['おいしい','enak · i','おいしくない／おいしかった','oishii / oishikunai / oishikatta'],['暑い（あつい）','panas untuk cuaca · i','暑くない／暑かった','atsui / atsukunai / atsukatta'],['寒い（さむい）','dingin untuk cuaca · i','寒くない／寒かった','samui / samukunai / samukatta'],['忙しい（いそがしい）','sibuk · i','忙しくない／忙しかった','isogashii / isogashikunai / isogashikatta'],['大きい（おおきい）','besar · i','大きくない／大きかった','ōkii / ōkikunai / ōkikatta'],['小さい（ちいさい）','kecil · i','小さくない／小さかった','chiisai / chiisakunai / chiisakatta'],['静か（しずか）','tenang · na','静かじゃない／静かでした','shizuka / shizuka janai / shizuka deshita'],['便利（べんり）','praktis · na','便利じゃない／便利でした','benri / benri janai / benri deshita'],['元気（げんき）','sehat/bersemangat · na','元気じゃない／元気でした','genki / genki janai / genki deshita'],['きれい','indah/bersih · na','きれいな部屋／きれいじゃない','kirei na heya / kirei janai'],['好き（すき）','suka · na','魚が好きです。','Sakana ga suki desu. — Saya suka ikan.'],['嫌い（きらい）','tidak suka · na','辛い食べ物が嫌いです。','Karai tabemono ga kirai desu. — Saya tidak suka makanan pedas.']]},
+ connectors:{intro:'Kata sambung membantu mengurutkan cerita, memberi alasan, atau menunjukkan pertentangan.',items:[['そして','dan kemudian','朝ごはんを食べました。そして、仕事へ行きました。','Asagohan o tabemashita. Soshite, shigoto e ikimashita.'],['それから','setelah itu','買い物をしました。それから帰りました。','Kaimono o shimashita. Sorekara kaerimashita.'],['でも／しかし','tetapi/namun','高いです。でも、おいしいです。','Takai desu. Demo, oishii desu.'],['だから／ですから','karena itu/jadi','雨です。だから、家にいます。','Ame desu. Dakara, ie ni imasu.'],['それに','selain itu','安いです。それに、おいしいです。','Yasui desu. Soreni, oishii desu.'],['それとも','atau (dalam pertanyaan pilihan)','お茶ですか。それとも水ですか。','Ocha desu ka. Soretomo mizu desu ka.'],['たとえば','misalnya','果物、たとえばりんごが好きです。','Kudamono, tatoeba ringo ga suki desu.'],['まず／次に／最後に','pertama/berikutnya/terakhir','まず手を洗います。次に野菜を切ります。','Mazu te o araimasu. Tsugi ni yasai o kirimasu.'],['それで','lalu/akibatnya','電車が遅れました。それで遅刻しました。','Densha ga okuremashita. Sorede chikoku shimashita.'],['つまり','dengan kata lain','つまり、もう一度説明してください。','Tsumari, mō ichido setsumei shite kudasai.']]},
+ questions:{intro:'Kata tanya umum. Biasanya か di akhir kalimat membentuk pertanyaan sopan.',items:[['何（なに／なん）','apa','これは何ですか。','Kore wa nan desu ka. — Ini apa?'],['誰（だれ）','siapa','あの人は誰ですか。','Ano hito wa dare desu ka. — Orang itu siapa?'],['どこ','di mana/ke mana','駅はどこですか。','Eki wa doko desu ka. — Stasiun di mana?'],['いつ','kapan','いつ日本へ行きますか。','Itsu Nihon e ikimasu ka. — Kapan pergi ke Jepang?'],['何時（なんじ）','jam berapa','今、何時ですか。','Ima nanji desu ka. — Sekarang jam berapa?'],['いくら','berapa harga','これはいくらですか。','Kore wa ikura desu ka. — Ini berapa harganya?'],['いくつ','berapa buah/umur secara umum','りんごはいくつありますか。','Ringo wa ikutsu arimasu ka. — Ada berapa apel?'],['どう／どんな','bagaimana/yang seperti apa','仕事はどうですか。','Shigoto wa dō desu ka. — Bagaimana pekerjaannya?'],['どうして／なぜ','mengapa','どうして遅れましたか。','Dōshite okuremashita ka. — Mengapa terlambat?'],['どれ／どの','yang mana / yang ...','どのかばんですか。','Dono kaban desu ka. — Tas yang mana?'],['どちら','yang mana/arah mana (lebih sopan)','出口はどちらですか。','Deguchi wa dochira desu ka. — Pintu keluar ke arah mana?'],['何曜日（なんようび）','hari apa','今日は何曜日ですか。','Kyō wa nan-yōbi desu ka. — Hari ini hari apa?']]},
+ demonstratives:{intro:'Kore/sore/are berdiri sendiri. Kono/sono/ano harus diikuti kata benda. Ko-so-a-do menunjukkan dekat pembicara, dekat lawan bicara, jauh dari keduanya, dan kata tanya.',items:[['これ／それ／あれ','ini/itu/itu di sana (benda)','これは私の本です。','Kore wa watashi no hon desu.'],['この／その／あの + nomina','nomina ini/itu/itu di sana','この店は安いです。','Kono mise wa yasui desu.'],['ここ／そこ／あそこ','di sini/di situ/di sana','トイレはあそこです。','Toire wa asoko desu.'],['こちら／そちら／あちら','arah/orang/tempat ini/itu (lebih sopan)','受付はこちらです。','Uketsuke wa kochira desu.'],['どれ／どの／どこ','yang mana / yang mana + nomina / di mana','どれが好きですか。','Dore ga suki desu ka.'],['こんな／そんな／あんな','seperti ini/itu/itu di sana','こんな仕事をしたいです。','Konna shigoto o shitai desu.'],['こう／そう／ああ／どう','seperti ini/begitu/seperti itu/bagaimana','こうしてください。','Kō shite kudasai. — Tolong lakukan seperti ini.']]},
+ numbers:{intro:'Angka Jepang membentuk bilangan dengan menggabungkan satuan. Perhatikan perubahan bacaan khusus untuk 300, 600, 800; 3.000 dan 8.000; serta 10.000 (万 man). Gunakan alat di bawah untuk angka sampai satu miliar.',items:[['1–10','いち、に、さん、し／よん、ご、ろく、しち／なな、はち、きゅう、じゅう','ichi, ni, san, yon, go, roku, nana, hachi, kyū, jū','1–10'],['11–19','じゅういち、じゅうに…じゅうきゅう','jū-ichi, jū-ni … jū-kyū','10 + angka satuan'],['20, 30, 40…90','にじゅう、さんじゅう、よんじゅう…きゅうじゅう','nijū, sanjū, yonjū … kyūjū','angka puluhan'],['100 / 300 / 600 / 800','ひゃく／さんびゃく／ろっぴゃく／はっぴゃく','hyaku / sanbyaku / roppyaku / happyaku','ratusan'],['1.000 / 3.000 / 8.000','せん／さんぜん／はっせん','sen / sanzen / hassen','ribuan'],['10.000','一万（いちまん）','ichiman','10 ribu'],['100.000','十万（じゅうまん）','jūman','100 ribu'],['1.000.000','百万（ひゃくまん）','hyakuman','1 juta'],['10.000.000','千万（せんまん）','senman','10 juta'],['100.000.000','一億（いちおく）','ichioku','100 juta'],['1.000.000.000','十億（じゅうおく）','jūoku','1 miliar']]},
+ time:{intro:'Waktu: jam memakai 時 (じ), menit memakai 分 (ふん／ぷん). Tanggal memiliki bacaan khusus, jadi hafalkan sedikit demi sedikit.',items:[['Pagi / siang / malam','朝（あさ）／昼（ひる）／夕方（ゆうがた）／夜（よる）／深夜（しんや）','asa / hiru / yūgata / yoru / shinya','pagi / siang / sore / malam / larut malam'],['Bagian hari','午前（ごぜん）／午後（ごご）／正午（しょうご）／真夜中（まよなか）','gozen / gogo / shōgo / mayonaka','AM / PM / tengah hari / tengah malam'],['Jam 1–12','一時、二時、三時、四時、五時、六時、七時、八時、九時、十時、十一時、十二時','ichiji, niji, sanji, yoji, goji, rokuji, shichiji, hachiji, kuji, jūji, jūichiji, jūniji','jam 1 sampai 12; khususnya 4=yoji, 7=shichiji, 9=kuji'],['Menit','一分、二分、三分、四分、五分、六分、七分、八分、九分、十分','ippun, nifun, sanpun, yonpun, gofun, roppun, nanafun, happun, kyūfun, juppun','menit 1–10; pelafalan berubah'],['Hari dalam seminggu','月曜日、火曜日、水曜日、木曜日、金曜日、土曜日、日曜日','getsuyōbi, kayōbi, suiyōbi, mokuyōbi, kin-yōbi, doyōbi, nichiyōbi','Senin sampai Minggu'],['Tanggal 1–10','一日、二日、三日、四日、五日、六日、七日、八日、九日、十日','tsuitachi, futsuka, mikka, yokka, itsuka, muika, nanoka, yōka, kokonoka, tōka','tanggal 1–10; bacaan khusus'],['Tanggal 14, 20, 24','十四日、二十日、二十四日','jūyokka, hatsuka, nijūyokka','tanggal khusus'],['Bulan 1–12','一月〜十二月','ichigatsu, nigatsu, sangatsu, shigatsu, gogatsu, rokugatsu, shichigatsu, hachigatsu, kugatsu, jūgatsu, jūichigatsu, jūnigatsu','Januari sampai Desember'],['Tahun','年（ねん）／今年（ことし）／去年（きょねん）／来年（らいねん）','nen / kotoshi / kyonen / rainen','tahun / tahun ini / tahun lalu / tahun depan'],['Musim','春（はる）／夏（なつ）／秋（あき）／冬（ふゆ）','haru / natsu / aki / fuyu','musim semi / panas / gugur / dingin'],['Kata waktu','今日、昨日、明日、毎日、今週、来週、先週','kyō, kinō, ashita, mainichi, konshū, raishū, senshū','hari ini, kemarin, besok, setiap hari, minggu ini/depan/lalu']]},
+ food:{intro:'Kosakata makanan untuk belanja, memasak, dan kerja pengolahan makanan. Beberapa kata memiliki istilah sehari-hari dan istilah lebih formal.',items:[['Buah','りんご、バナナ、みかん、ぶどう、いちご、もも、なし、すいか','ringo, banana, mikan, budō, ichigo, momo, nashi, suika','apel, pisang, jeruk mandarin, anggur, stroberi, persik, pir Asia, semangka'],['Sayur','にんじん、たまねぎ、じゃがいも、だいこん、キャベツ、はくさい、きゅうり、なす','ninjin, tamanegi, jagaimo, daikon, kyabetsu, hakusai, kyūri, nasu','wortel, bawang bombai, kentang, lobak, kol, sawi putih, mentimun, terong'],['Bumbu dan rasa','塩、砂糖、しょうゆ、みそ、酢、こしょう、にんにく、しょうが、油','shio, satō, shōyu, miso, su, koshō, ninniku, shōga, abura','garam, gula, kecap asin, miso, cuka, lada, bawang putih, jahe, minyak'],['Protein dan bahan','肉、牛肉、豚肉、鶏肉、魚、卵、豆腐、牛乳','niku, gyūniku, butaniku, toriniku, sakana, tamago, tōfu, gyūnyū','daging, sapi, babi, ayam, ikan, telur, tahu, susu'],['Karbohidrat','米、ご飯、パン、麺、うどん、そば、パスタ','kome, gohan, pan, men, udon, soba, pasuta','beras, nasi/makanan, roti, mi, udon, soba, pasta'],['Minuman','水、お茶、緑茶、紅茶、コーヒー、牛乳、ジュース、炭酸水','mizu, ocha, ryokucha, kōcha, kōhī, gyūnyū, jūsu, tansansui','air, teh, teh hijau, teh hitam, kopi, susu, jus, air soda'],['Kata kerja dapur','切る、洗う、焼く、煮る、ゆでる、蒸す、揚げる、混ぜる','kiru, arau, yaku, niru, yuderu, musu, ageru, mazeru','memotong, mencuci, memanggang, merebus perlahan, merebus, mengukus, menggoreng, mencampur'],['Rasa/tekstur','甘い、辛い、酸っぱい、苦い、しょっぱい、熱い、冷たい','amai, karai, suppai, nigai, shoppai, atsui, tsumetai','manis, pedas, asam, pahit, asin, panas, dingin']]},
+ japaneseFood:{intro:'Nama makanan khas Jepang yang sering ditemui. Sebagian dapat mengandung ikan/seafood; tanyakan bahan dan alergi bila perlu.',items:[['寿司（すし）','sushi','nasi berbumbu dengan topping; sering memakai ikan/seafood'],['おにぎり','onigiri','nasi kepal; isi bisa ume, salmon, tuna, atau bahan lain'],['味噌汁（みそしる）','misoshiru','sup miso; kaldu bisa mengandung dashi ikan'],['ラーメン','rāmen','mi kuah; kaldu dan topping berbeda-beda'],['うどん','udon','mi tebal dari gandum'],['そば','soba','mi buckwheat; cek kemungkinan campuran gandum'],['天ぷら（てんぷら）','tenpura','bahan berbalut adonan dan digoreng'],['カレーライス','karē raisu','nasi kari Jepang'],['お好み焼き（おこのみやき）','okonomiyaki','panekuk gurih; saus/topping bisa mengandung seafood'],['焼き鳥（やきとり）','yakitori','sate ayam panggang'],['とんかつ','tonkatsu','daging babi berbalut tepung dan digoreng'],['納豆（なっとう）','nattō','kedelai fermentasi'],['餅（もち）','mochi','kue beras ketan; sangat lengket, makan dengan hati-hati'],['たい焼き','taiyaki','kue berbentuk ikan, sering berisi pasta kacang merah'],['だんご','dango','bola-bola tepung beras'],['おでん','oden','rebusan berbagai bahan; kaldu dan isi berbeda-beda']]},
+ jobs:{intro:'Kosakata profesi, tempat kerja, dan aktivitas. Untuk menyebut profesi sendiri, pola umum: わたしは〜です (Watashi wa ~ desu).',items:[['会社員（かいしゃいん）','kaishain','pegawai perusahaan'],['工場作業員（こうじょうさぎょういん）','kōjō sagyōin','pekerja pabrik'],['食品加工（しょくひんかこう）','shokuhin kakō','pengolahan makanan'],['調理師（ちょうりし）','chōrishi','juru masak/koki bersertifikat'],['料理人（りょうりにん）','ryōrinin','koki/juru masak'],['店員（てんいん）','ten-in','pegawai toko'],['販売員（はんばいいん）','hanbaiin','staf penjualan'],['看護師（かんごし）','kangoshi','perawat'],['介護士（かいごし）','kaigoshi','pekerja perawatan lansia/disabilitas'],['医師（いし）','ishi','dokter'],['運転手（うんてんしゅ）','untenshu','pengemudi'],['農家（のうか）','nōka','petani/pelaku usaha tani'],['漁師（りょうし）','ryōshi','nelayan'],['教師（きょうし）／先生（せんせい）','kyōshi / sensei','guru/pengajar; sensei sebagai sapaan'],['通訳（つうやく）','tsūyaku','juru bahasa lisan'],['事務員（じむいん）','jimuin','staf administrasi'],['清掃員（せいそういん）','seisōin','petugas kebersihan'],['建設作業員（けんせつさぎょういん）','kensetsu sagyōin','pekerja konstruksi'],['警察官（けいさつかん）','keisatsukan','polisi'],['消防士（しょうぼうし）','shōbōshi','petugas pemadam kebakaran'],['会社（かいしゃ）／工場（こうじょう）','kaisha / kōjō','perusahaan / pabrik'],['同僚（どうりょう）／上司（じょうし）','dōryō / jōshi','rekan kerja / atasan'],['給料（きゅうりょう）／残業（ざんぎょう）','kyūryō / zangyō','gaji / lembur']]}
+};
+function renderStudyLibrary(){const cat=document.getElementById('studyCategory').value;const d=studyData[cat];document.getElementById('studyIntro').textContent=d.intro;document.getElementById('numberTool').hidden=cat!=='numbers';const box=document.getElementById('studyCards');box.innerHTML='';d.items.forEach((it,i)=>{const card=document.createElement('article');card.className='vocab';card.style.cssText='display:block;margin-bottom:10px';const title=it[0]||'';const line2=it[1]||'';const line3=it[2]||'';const line4=it[3]||'';card.innerHTML=`<div class="row" style="align-items:flex-start;justify-content:space-between;gap:10px"><div style="flex:1"><strong>${escapeStudy(title)}</strong><div class="tiny" style="margin-top:5px">${escapeStudy(line2)}</div><div style="margin-top:8px">${escapeStudy(line3)}</div><div class="tiny" style="margin-top:5px">${escapeStudy(line4)}</div></div><button class="secondary speak" data-say="${escapeStudy(title)}" aria-label="Dengarkan ${escapeStudy(title)}">🔊</button></div>`;box.appendChild(card)})}
+function escapeStudy(v){return String(v).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')}
+function japaneseNumber(n){
+ if(!Number.isSafeInteger(n)||n<1||n>1000000000)return 'Masukkan bilangan bulat 1–1.000.000.000.';
+ const kanjiDigit=['','一','二','三','四','五','六','七','八','九'];
+ const kanaDigit=['','いち','に','さん','よん','ご','ろく','なな','はち','きゅう'];
+ function chunk(x){let k='',r='';const a=Math.floor(x/1000);x%=1000;const b=Math.floor(x/100);x%=100;const c=Math.floor(x/10);const d=x%10;
+ if(a){if(a===1){k+='千';r+='せん'}else if(a===3){k+='三千';r+='さんぜん'}else if(a===8){k+='八千';r+='はっせん'}else{k+=kanjiDigit[a]+'千';r+=kanaDigit[a]+'せん'}}
+ if(b){if(b===1){k+='百';r+='ひゃく'}else if(b===3){k+='三百';r+='さんびゃく'}else if(b===6){k+='六百';r+='ろっぴゃく'}else if(b===8){k+='八百';r+='はっぴゃく'}else{k+=kanjiDigit[b]+'百';r+=kanaDigit[b]+'ひゃく'}}
+ if(c){k+=(c===1?'':kanjiDigit[c])+'十';r+=(c===1?'':kanaDigit[c])+'じゅう'}
+ if(d){k+=kanjiDigit[d];r+=kanaDigit[d]}
+ return [k,r]}
+ if(n===1000000000)return '十億（じゅうおく） — jūoku';
+ let rest=n, kan='', kana='';const oku=Math.floor(rest/100000000);rest%=100000000;const man=Math.floor(rest/10000);rest%=10000;
+ if(oku){const [k,r]=chunk(oku);kan+=k+'億';kana+=r+'おく'}
+ if(man){const [k,r]=chunk(man);kan+=k+'万';kana+=r+'まん'}
+ if(rest){const [k,r]=chunk(rest);kan+=k;kana+=r}
+ return kan+'（'+kana+'）';
+}
+document.addEventListener('DOMContentLoaded',()=>{const sel=document.getElementById('studyCategory');if(sel){sel.addEventListener('change',renderStudyLibrary);renderStudyLibrary();document.getElementById('numberConvert').addEventListener('click',()=>{const n=Number(document.getElementById('numberInput').value);document.getElementById('numberResult').textContent=japaneseNumber(n);});}});
+
+function show(id){document.querySelectorAll("main > section.panel").forEach(s=>s.hidden=true);document.getElementById(id).hidden=false;document.getElementById(id).scrollIntoView({behavior:"smooth",block:"start"});if(id==="progress")updateProgress();if(id==="studyLibrary")renderStudyLibrary();if(id==="kanji"){renderKanji();renderKanjiQuiz()}if(id==="kanaFull"){renderKanaFull();renderKanaQuestion()}}
+document.querySelectorAll("[data-open]").forEach(b=>b.addEventListener("click",()=>show(b.dataset.open)));
+document.querySelectorAll("[data-home]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("main > section.panel").forEach(s=>s.hidden=true);window.scrollTo({top:0,behavior:"smooth"})}));
+function renderKana(){const grid=document.getElementById("kanaGrid");grid.innerHTML="";currentKana.forEach(([char,romaji])=>{const b=document.createElement("button");b.className="kana";b.innerHTML=`<b>${char}</b><small>${romaji}</small>`;b.setAttribute("aria-label",char+" "+romaji+" dengarkan");b.onclick=()=>speak(char);grid.appendChild(b)})}
+document.getElementById("hiraganaTab").onclick=()=>{currentKana=kanaH;renderKana()};
+document.getElementById("katakanaTab").onclick=()=>{currentKana=kanaK;renderKana()};
+function kanaAudioStatus(message, isError=false){
+ let el=document.getElementById("audioStatus");
+ if(!el){
+  el=document.createElement("p");el.id="audioStatus";el.setAttribute("aria-live","polite");
+  el.style.cssText="margin-top:8px;font-size:.9rem;line-height:1.45;color:#71364f;background:#fff0f5;border:1px solid #f0c7d7;padding:9px 11px;border-radius:10px";
+  const active=document.querySelector(".panel:not([hidden]) .speak");
+  if(active&&active.parentElement)active.parentElement.appendChild(el);
+  else document.body.appendChild(el);
+ }
+ el.style.color=isError?"#9b2c2c":"#71364f";
+ el.textContent=message;
+}
+function speak(text){
+ if(!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)){
+  kanaAudioStatus("Browser ini tidak mendukung audio otomatis. Coba buka file dengan Google Chrome terbaru.",true);return;
+ }
+ try{
+  window.speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang="ja-JP";u.rate=.78;u.pitch=1;
+  const chooseVoice=()=>{
+   const voices=window.speechSynthesis.getVoices();
+   const v=voices.find(v=>v.lang&&v.lang.toLowerCase()==="ja-jp") || voices.find(v=>v.lang&&v.lang.toLowerCase().startsWith("ja"));
+   if(v)u.voice=v;
+   return v;
+  };
+  const voice=chooseVoice();
+  u.onstart=()=>kanaAudioStatus(voice?"Audio sedang diputar dengan suara Jepang.":"Audio sedang dicoba memakai suara bawaan. Jika tetap senyap, pasang/aktifkan suara Jepang di pengaturan text-to-speech Android.");
+  u.onend=()=>kanaAudioStatus("Selesai diputar. Tekan huruf atau tombol audio untuk mendengarkan lagi.");
+  u.onerror=(e)=>kanaAudioStatus("Audio gagal diputar ("+(e.error||"kesalahan browser")+"). Coba Chrome dan periksa mesin Text-to-speech serta suara Jepang di pengaturan HP.",true);
+  window.speechSynthesis.speak(u);
+  if(!voice)kanaAudioStatus("Suara Jepang belum terdeteksi. Browser sedang mencoba suara bawaan; bila tidak terdengar, aktifkan/unduh suara Jepang di pengaturan Text-to-speech Android.",true);
+ }catch(err){
+  kanaAudioStatus("Audio tidak dapat dijalankan. Coba buka file di Chrome dan periksa pengaturan suara HP.",true);
+ }
+}
+document.addEventListener("click",event=>{const b=event.target.closest(".speak");if(b&&b.dataset.say)speak(b.dataset.say)});
+function renderQuiz(){answered=false;const q=questions[idx];document.getElementById("quizCount").textContent=`Pertanyaan ${idx+1} dari ${questions.length}`;document.getElementById("quizProgress").style.width=`${idx/questions.length*100}%`;document.getElementById("question").textContent=q.q;document.getElementById("feedback").textContent="";document.getElementById("next").hidden=true;const box=document.getElementById("options");box.innerHTML="";q.opts.forEach((o,i)=>{const b=document.createElement("button");b.className="option";b.textContent=o;b.onclick=()=>answer(i,b);box.appendChild(b)})}
+function answer(i,b){if(answered)return;answered=true;const q=questions[idx];asked++;if(i===q.a){score+=10;b.classList.add("correct");document.getElementById("feedback").textContent="Benar! "+q.why}else{b.classList.add("wrong");document.getElementById("feedback").textContent="Belum tepat. "+q.why}document.querySelectorAll("#options .option").forEach((x,j)=>{x.disabled=true;if(j===q.a)x.classList.add("correct")});document.getElementById("next").hidden=false;document.getElementById("quizProgress").style.width=`${(idx+1)/questions.length*100}%`;updateProgress()}
+document.getElementById("next").onclick=()=>{idx=(idx+1)%questions.length;renderQuiz()};
+document.getElementById("restart").onclick=()=>{idx=0;renderQuiz()};
+
+document.querySelectorAll("[data-kanatype]").forEach(btn=>btn.addEventListener("click",()=>{kanaTypeFull=btn.dataset.kanatype;document.querySelectorAll("[data-kanatype]").forEach(b=>{b.className=b===btn?"primary":"secondary"});renderKanaFull();}));
+document.getElementById("kanaGroup").addEventListener("change",renderKanaFull);
+document.getElementById("kanaNext").addEventListener("click",()=>{kanaQuizFullIndex++;renderKanaQuestion()});
+
+document.getElementById("kanjiLevel").addEventListener("change",renderKanji);
+document.getElementById("kanjiNext").addEventListener("click",()=>{kanjiQuizIndex++;renderKanjiQuiz()});
+function updateProgress(){saveProgress();document.getElementById("scoreDisplay").textContent=score+" poin";document.getElementById("progressText").textContent=asked?`Kamu sudah menjawab ${asked} pertanyaan. Skor tersimpan di browser ini. Terus berlatih ya!`:"Coba kuis kosakata untuk mendapatkan skor pertamamu."}
+renderKana();renderQuiz();updateProgress();
+</script>
+
+<script>
+if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js").catch(err => console.warn("Service worker belum terpasang:", err));
+  });
+}
+</script>
+
+</body>
+</html>

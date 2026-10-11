@@ -1,0 +1,19 @@
+SAKURA NIHONGO — PWA INSTALLABLE
+
+Isi folder:
+- index.html: materi Sakura Nihongo Tahap 9 (isi sumber dipertahankan)
+- manifest.webmanifest: identitas aplikasi
+- sw.js: service worker/cache untuk dukungan offline
+- icon-192.png dan icon-512.png: ikon aplikasi
+
+PENTING:
+Agar Chrome Android menampilkan opsi instalasi PWA, semua file harus dipublikasikan pada alamat HTTPS (misalnya GitHub Pages).
+File yang dibuka dari content:// atau file:// tidak bisa dipasang sebagai PWA secara langsung.
+Setelah dipublikasikan:
+1. Buka URL HTTPS situs di Chrome pada Samsung A04.
+2. Tekan menu ⋮.
+3. Pilih "Instal aplikasi" atau "Tambahkan ke layar utama".
+4. Konfirmasi pemasangan.
+
+Audio:
+Materi HTML asli dipertahankan. Audio menggunakan dukungan suara/browser yang sudah ada di HP; saat offline, suara Jepang dapat bergantung pada mesin text-to-speech yang terpasang di Samsung.
